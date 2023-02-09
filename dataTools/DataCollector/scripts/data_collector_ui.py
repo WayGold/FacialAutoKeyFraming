@@ -9,6 +9,8 @@ from PySide2 import QtUiTools
 from PySide2 import QtWidgets
 import shiboken2 as shiboken
 
+import utils
+
 main_window = None
 
 
@@ -45,6 +47,10 @@ def Singleton(cls):
 class MainWindow(QtWidgets.QMainWindow):
     # Output path to save the json data file
     working_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), u"out")
+    # Loading path
+    loading_path = ''
+    # Controller Config Path
+    ctrl_config_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), u"ctrl_config.json")
 
     def __init__(self):
 
@@ -70,12 +76,23 @@ class MainWindow(QtWidgets.QMainWindow):
         self.ui.exportLocField.cursorPositionChanged.connect(self.set_working_path)
         self.ui.exportLocField.selectionChanged.connect(self.set_working_path)
 
+        # Add Loading Path Modification Listeners
+        self.ui.dataLocField.setText(self.loading_path)
+        self.ui.dataLocField.textChanged.connect(self.set_loading_path)
+        self.ui.dataLocField.returnPressed.connect(self.set_loading_path)
+        self.ui.dataLocField.cursorPositionChanged.connect(self.set_loading_path)
+        self.ui.dataLocField.selectionChanged.connect(self.set_loading_path)
+
         # Add Browse Select Connection
-        self.ui.browseExportLocationButton.clicked.connect(self.browse_callback)
+        self.ui.browseExportLocationButton.clicked.connect(lambda: self.browse_callback(self.ui.exportLocField))
+        self.ui.browseDataLocButton.clicked.connect(lambda: self.browse_callback(self.ui.dataLocField))
+
         # Add Debug List Clear Connection
         self.ui.clearLog.clicked.connect(self.clear_log_list)
         # Add Export Connection
         self.ui.exportButton.clicked.connect(self.export_callback)
+        # Add Load Connection
+        self.ui.loadButton.clicked.connect(self.load_callback)
 
         # Add EventFilter to Detect CloseEvent
         self.ui.installEventFilter(self)
@@ -105,7 +122,10 @@ class MainWindow(QtWidgets.QMainWindow):
         return window
 
     def set_working_path(self):
-        self.working_path = self.ui.lineEdit_config_path.text()
+        self.working_path = self.ui.exportLocField.text()
+
+    def set_loading_path(self):
+        self.loading_path = self.ui.dataLocField.text()
 
     def show(self):
         self.ui.show()
@@ -131,8 +151,14 @@ class MainWindow(QtWidgets.QMainWindow):
         QtCore.QCoreApplication.processEvents()
 
     def export_callback(self):
-        self.append_to_log_list('Debug - Export clicked')
-        pass
+        self.append_to_log_list('Exporting to ' + self.working_path)
 
-    def browse_callback(self):
+    def browse_callback(self, text_field):
+        self.append_to_log_list('Browsing path...')
+        self.working_path = QtWidgets.QFileDialog.getExistingDirectory(self)
+        text_field.setText(self.working_path)
+        self.append_to_log_list('Selected: ' + self.working_path)
+
+    def load_callback(self):
+        utils.json_load(str(self.ctrl_config_path))
         pass

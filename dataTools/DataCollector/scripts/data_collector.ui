@@ -7,19 +7,19 @@
     <x>0</x>
     <y>0</y>
     <width>352</width>
-    <height>327</height>
+    <height>355</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>DataCollectTool</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLineEdit" name="exportLocField">
     <property name="geometry">
      <rect>
-      <x>110</x>
+      <x>120</x>
       <y>30</y>
-      <width>191</width>
+      <width>181</width>
       <height>20</height>
      </rect>
     </property>
@@ -72,9 +72,9 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>110</y>
+      <y>190</y>
       <width>311</width>
-      <height>161</height>
+      <height>101</height>
      </rect>
     </property>
    </widget>
@@ -82,13 +82,67 @@
     <property name="geometry">
      <rect>
       <x>140</x>
-      <y>280</y>
+      <y>300</y>
       <width>75</width>
       <height>23</height>
      </rect>
     </property>
     <property name="text">
      <string>Clear Log</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="loadButton">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>150</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dataLocLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Datafile Location:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="dataLocField">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>110</y>
+      <width>181</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="browseDataLocButton">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>110</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>...</string>
     </property>
    </widget>
   </widget>
