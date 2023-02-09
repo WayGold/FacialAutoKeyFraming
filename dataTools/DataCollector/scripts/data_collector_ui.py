@@ -89,6 +89,8 @@ class MainWindow(QtWidgets.QMainWindow):
 
         # Add Debug List Clear Connection
         self.ui.clearLog.clicked.connect(self.clear_log_list)
+        # Add Generate Connection
+        self.ui.generateButton.clicked.connect(self.generate_callback)
         # Add Export Connection
         self.ui.exportButton.clicked.connect(self.export_callback)
         # Add Load Connection
@@ -149,6 +151,10 @@ class MainWindow(QtWidgets.QMainWindow):
     def clear_log_list(self):
         self.ui.logWidget.clear()
         QtCore.QCoreApplication.processEvents()
+
+    def generate_callback(self):
+        utils.write_ctrl_config(self.ctrl_config_path)
+        self.append_to_log_list('Generate to ' + self.ctrl_config_path)
 
     def export_callback(self):
         self.append_to_log_list('Exporting to ' + self.working_path)

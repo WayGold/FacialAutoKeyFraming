@@ -2,21 +2,33 @@ import os
 import json
 import maya.cmds as cmds
 
-def getCtrlValue():
-    my_group = cmds.ls(selection=True, type="transform")[0]
+
+def get_ctrl_config():
+    my_group = cmds.ls(selection=True)[0]
     my_ctrl = cmds.listRelatives(my_group, children=True)
     channel_list = ['.translateX', '.translateY', '.translateZ',
                     '.rotateX', '.rotateY', '.rotateZ',
                     '.scaleX', '.scaleY', '.scaleZ']
-    ctrl_confit_dict = {}
+    ctrl_config_dict = {}
 
     for i, child in enumerate(my_ctrl):
-        ctrl_confit_dict[child] = []
+        ctrl_config_dict[child] = []
         for channelName in channel_list:
             if cmds.getAttr(child + channelName, k=True):
-                ctrl_confit_dict[child].append(channelName)
+                ctrl_config_dict[child].append(channelName)
 
-                
+    return ctrl_config_dict
+
+
+def write_ctrl_config(out_path):
+    ctrl_config_dict = get_ctrl_config()
+    json_dump(ctrl_config_dict, out_path)
+
+
+def export_ctrl_value(out_path):
+    pass
+
+
 def json_dump(dict_data, json_out):
     """
 
