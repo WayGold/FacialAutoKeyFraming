@@ -179,9 +179,9 @@
    <widget class="QLabel" name="exportLoclabel_3">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>20</x>
       <y>30</y>
-      <width>361</width>
+      <width>341</width>
       <height>20</height>
      </rect>
     </property>
@@ -191,7 +191,7 @@
      </font>
     </property>
     <property name="text">
-     <string>please choose controller group before hitting generate button</string>
+     <string>Pls Manually Select All Controllers Before Hitting Generate</string>
     </property>
    </widget>
   </widget>

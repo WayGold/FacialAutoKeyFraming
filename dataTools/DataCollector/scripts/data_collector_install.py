@@ -8,7 +8,7 @@ SHELF_NAME = "Facial_Controller_Data_Collector"
 SHELF_TOOL = {
     "label": "Facial_Controller_Data_Collector",
     "command": "import data_collector_ui; data_collector_ui.delete(); reload(data_collector_ui); "
-               "data_collector_ui.create();",
+               "data_collector_ui.create(); reload(utils)",
     "annotation": "Data collector for Metahuman face rig controllers",
     "image1": "tool.png",
     "imageOverlayLabel": "",

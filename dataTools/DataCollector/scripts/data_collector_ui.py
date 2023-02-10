@@ -10,6 +10,7 @@ from PySide2 import QtWidgets
 import shiboken2 as shiboken
 
 import utils
+reload(utils)
 
 main_window = None
 
@@ -85,7 +86,7 @@ class MainWindow(QtWidgets.QMainWindow):
 
         # Add Browse Select Connection
         self.ui.browseExportLocationButton.clicked.connect(lambda: self.browse_callback(self.ui.exportLocField))
-        self.ui.browseDataLocButton.clicked.connect(lambda: self.browse_callback(self.ui.dataLocField))
+        self.ui.browseDataLocButton.clicked.connect(self.browse_load_callback)
 
         # Add Debug List Clear Connection
         self.ui.clearLog.clicked.connect(self.clear_log_list)
@@ -157,7 +158,8 @@ class MainWindow(QtWidgets.QMainWindow):
         self.append_to_log_list('Generate to ' + self.ctrl_config_path)
 
     def export_callback(self):
-        self.append_to_log_list('Exporting to ' + self.working_path)
+        utils.export_ctrl_value(self.working_path)
+        self.append_to_log_list('Exported to ' + self.working_path)
 
     def browse_callback(self, text_field):
         self.append_to_log_list('Browsing path...')
@@ -165,6 +167,13 @@ class MainWindow(QtWidgets.QMainWindow):
         text_field.setText(self.working_path)
         self.append_to_log_list('Selected: ' + self.working_path)
 
+    def browse_load_callback(self):
+        self.append_to_log_list('Browsing loading path...')
+        self.loading_path = QtWidgets.QFileDialog.getOpenFileName(self)[0]
+        self.ui.dataLocField.setText(self.loading_path)
+        self.append_to_log_list('Selected: ' + self.loading_path)
+
     def load_callback(self):
-        utils.json_load(str(self.ctrl_config_path))
-        pass
+        self.append_to_log_list('Loading data...')
+        utils.load_data_file(self.loading_path)
+
