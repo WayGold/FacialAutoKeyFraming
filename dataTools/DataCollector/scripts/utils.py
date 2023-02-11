@@ -4,16 +4,23 @@ import maya.cmds as cmds
 
 
 def get_ctrl_config():
-    my_ctrl = cmds.ls(selection=True)
+    my_select = cmds.ls(selection=True)
+    select_ctrl = cmds.listRelatives(my_select, ad=True, type='transform')
+    my_ctrl = []
 
     channel_list = ['.translateX', '.translateY', '.translateZ',
                     '.rotateX', '.rotateY', '.rotateZ',
                     '.scaleX', '.scaleY', '.scaleZ']
 
+    for ctrl_name in select_ctrl:
+        if "CTRL_" in ctrl_name:
+            my_ctrl.append(ctrl_name)
+
+    '''
     for i, ctrl_name in enumerate(my_ctrl):
         ctrl_name = str(ctrl_name).split('Shape')[0]
         my_ctrl[i] = ctrl_name
-
+    '''
     ctrl_config_dict = {}
 
     for i, child in enumerate(my_ctrl):
