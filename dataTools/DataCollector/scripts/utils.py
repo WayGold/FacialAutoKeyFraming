@@ -45,11 +45,24 @@ def export_ctrl_value(out_path):
 
     data_dict = {}
 
+    final_frame = cmds.findKeyframe(ctrl_config_dict, which='last')
+    for frame in range(1, int(final_frame) + 1):
+        cmds.currentTime(frame)
+        frame_data = {}
+        for ctrl in ctrl_config_dict:
+            ctrl_data = []
+            for channel_name in ctrl_config_dict[ctrl]:
+                ctrl_data.append(cmds.getAttr(ctrl + channel_name))
+            frame_data[ctrl] = ctrl_data
+        data_dict[frame] = frame_data
+
+    '''
     for ctrl in ctrl_config_dict:
         data_dict[ctrl] = []
         for channel_name in ctrl_config_dict[ctrl]:
             data_dict[ctrl].append(cmds.getAttr(ctrl + channel_name))
-
+    '''
+    
     print 'Len of data ' + str(len(data_dict))
 
     file_name = os.path.join(out_path, str(int(cmds.currentTime(query=True))) + '.json')
@@ -114,9 +127,18 @@ def paste_ctrl_value(ctrl_config_dict, data):
     print 'Len of data ' + str(len(data))
 
     for ctrl in ctrl_config_dict:
+        for frame in ctrl_config_dict:
+            for i, channel in enumerate(ctrl_config_dict[ctrl]):
+                if not cmds.getAttr(ctrl + channel, lock=True):
+                    cmds.setAttr(ctrl + channel, float(data[ctrl][i]))
+                    cmds.setKeyframe(ctrl + channel, time=frame)
+
+    '''
+    for ctrl in ctrl_config_dict:
         for i, channel in enumerate(ctrl_config_dict[ctrl]):
             if not cmds.getAttr(ctrl + channel, lock=True):
                 cmds.setAttr(ctrl + channel, float(data[ctrl][i]))
+    '''
 
 
 if __name__ == '__main__':
