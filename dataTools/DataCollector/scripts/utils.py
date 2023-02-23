@@ -13,6 +13,8 @@ def get_ctrl_config():
                     '.scaleX', '.scaleY', '.scaleZ']
 
     for ctrl_name in select_ctrl:
+        if ctrl_name in ['CTRL_L_mouth_lipsPressD', 'CTRL_R_mouth_lipsPressD']:
+            continue
         if "CTRL_" in ctrl_name:
             my_ctrl.append(ctrl_name)
 
@@ -46,14 +48,13 @@ def export_ctrl_value(out_path):
     data_dict = {}
 
     final_frame = cmds.findKeyframe(ctrl_config_dict, which='last')
-    for frame in range(1, int(final_frame) + 1):
+    for frame in range(0, int(final_frame) + 1):
         cmds.currentTime(frame)
         frame_data = {}
         for ctrl in ctrl_config_dict:
-            ctrl_data = []
+            frame_data[ctrl] = []
             for channel_name in ctrl_config_dict[ctrl]:
-                ctrl_data.append(cmds.getAttr(ctrl + channel_name))
-            frame_data[ctrl] = ctrl_data
+                frame_data[ctrl].append(cmds.getAttr(ctrl + channel_name))
         data_dict[frame] = frame_data
 
     '''
@@ -126,11 +127,11 @@ def paste_ctrl_value(ctrl_config_dict, data):
     print 'Len of config ' + str(len(ctrl_config_dict))
     print 'Len of data ' + str(len(data))
 
-    for ctrl in ctrl_config_dict:
-        for frame in ctrl_config_dict:
+    for frame in data:
+        for ctrl in ctrl_config_dict:
             for i, channel in enumerate(ctrl_config_dict[ctrl]):
                 if not cmds.getAttr(ctrl + channel, lock=True):
-                    cmds.setAttr(ctrl + channel, float(data[ctrl][i]))
+                    cmds.setAttr(ctrl + channel, float(data[frame][ctrl][i]))
                     cmds.setKeyframe(ctrl + channel, time=frame)
 
     '''

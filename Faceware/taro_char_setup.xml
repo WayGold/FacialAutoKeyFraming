@@ -1,0 +1,1199 @@
+<CharacterConfiguration>
+  <Name>Taro</Name>
+  <Component>
+    <Name>Mouth</Name>
+    <ParameterFile>Mouth_Params</ParameterFile>
+    <MovableAttribute>
+      <Name>CTRL_R_mouth_lipBiteD.translateY</Name>
+      <ID>CTRL_R_mouth_lipBiteD.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_mouth_lipBiteD.translateY</Name>
+      <ID>CTRL_L_mouth_lipBiteD.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_mouth_tightenD.translateY</Name>
+      <ID>CTRL_L_mouth_tightenD.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_mouth_tightenD.translateY</Name>
+      <ID>CTRL_R_mouth_tightenD.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_mouth_lipBiteU.translateY</Name>
+      <ID>CTRL_L_mouth_lipBiteU.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_mouth_lipBiteU.translateY</Name>
+      <ID>CTRL_R_mouth_lipBiteU.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_mouth_lipsPressU.translateY</Name>
+      <ID>CTRL_R_mouth_lipsPressU.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_mouth_lipsPressU.translateY</Name>
+      <ID>CTRL_L_mouth_lipsPressU.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_mouth_tightenU.translateY</Name>
+      <ID>CTRL_R_mouth_tightenU.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_mouth_tightenU.translateY</Name>
+      <ID>CTRL_L_mouth_tightenU.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_mouth_funnelD.translateY</Name>
+      <ID>CTRL_R_mouth_funnelD.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_mouth_funnelU.translateY</Name>
+      <ID>CTRL_R_mouth_funnelU.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_mouth_funnelD.translateY</Name>
+      <ID>CTRL_L_mouth_funnelD.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_mouth_funnelU.translateY</Name>
+      <ID>CTRL_L_mouth_funnelU.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_mouth_towardsD.translateY</Name>
+      <ID>CTRL_L_mouth_towardsD.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_mouth_towardsD.translateY</Name>
+      <ID>CTRL_R_mouth_towardsD.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_mouth_towardsU.translateY</Name>
+      <ID>CTRL_R_mouth_towardsU.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_mouth_towardsU.translateY</Name>
+      <ID>CTRL_L_mouth_towardsU.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_mouth_purseD.translateY</Name>
+      <ID>CTRL_R_mouth_purseD.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_mouth_purseU.translateY</Name>
+      <ID>CTRL_R_mouth_purseU.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_mouth_purseD.translateY</Name>
+      <ID>CTRL_L_mouth_purseD.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_mouth_purseU.translateY</Name>
+      <ID>CTRL_L_mouth_purseU.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_mouth_lipSticky.translateY</Name>
+      <ID>CTRL_L_mouth_lipSticky.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_mouth_lipSticky.translateY</Name>
+      <ID>CTRL_R_mouth_lipSticky.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_mouth_stickyInnerD.translateY</Name>
+      <ID>CTRL_L_mouth_stickyInnerD.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_mouth_stickyOuterD.translateY</Name>
+      <ID>CTRL_L_mouth_stickyOuterD.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_C_mouth_stickyD.translateY</Name>
+      <ID>CTRL_C_mouth_stickyD.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_mouth_stickyInnerD.translateY</Name>
+      <ID>CTRL_R_mouth_stickyInnerD.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_mouth_stickyOuterD.translateY</Name>
+      <ID>CTRL_R_mouth_stickyOuterD.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_mouth_stickyOuterU.translateY</Name>
+      <ID>CTRL_L_mouth_stickyOuterU.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_C_mouth_stickyU.translateY</Name>
+      <ID>CTRL_C_mouth_stickyU.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_mouth_stickyInnerU.translateY</Name>
+      <ID>CTRL_R_mouth_stickyInnerU.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_mouth_stickyInnerU.translateY</Name>
+      <ID>CTRL_L_mouth_stickyInnerU.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_mouth_stickyOuterU.translateY</Name>
+      <ID>CTRL_R_mouth_stickyOuterU.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_mouth_stretchLipsClose.translateY</Name>
+      <ID>CTRL_L_mouth_stretchLipsClose.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_mouth_stretchLipsClose.translateY</Name>
+      <ID>CTRL_R_mouth_stretchLipsClose.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_mouth_stretch.translateY</Name>
+      <ID>CTRL_R_mouth_stretch.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_mouth_lowerLipDepress.translateY</Name>
+      <ID>CTRL_L_mouth_lowerLipDepress.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_mouth_lowerLipDepress.translateY</Name>
+      <ID>CTRL_R_mouth_lowerLipDepress.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_mouth_cornerDepress.translateY</Name>
+      <ID>CTRL_R_mouth_cornerDepress.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_mouth_stretch.translateY</Name>
+      <ID>CTRL_L_mouth_stretch.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_mouth_cornerDepress.translateY</Name>
+      <ID>CTRL_L_mouth_cornerDepress.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_mouth_dimple.translateY</Name>
+      <ID>CTRL_R_mouth_dimple.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_mouth_cornerPull.translateY</Name>
+      <ID>CTRL_R_mouth_cornerPull.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_mouth_dimple.translateY</Name>
+      <ID>CTRL_L_mouth_dimple.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_mouth_cornerPull.translateY</Name>
+      <ID>CTRL_L_mouth_cornerPull.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_mouth_sharpCornerPull.translateY</Name>
+      <ID>CTRL_R_mouth_sharpCornerPull.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_mouth_sharpCornerPull.translateY</Name>
+      <ID>CTRL_L_mouth_sharpCornerPull.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_mouth_upperLipRaise.translateY</Name>
+      <ID>CTRL_L_mouth_upperLipRaise.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_mouth_upperLipRaise.translateY</Name>
+      <ID>CTRL_R_mouth_upperLipRaise.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_C_mouth.translateX</Name>
+      <ID>CTRL_C_mouth.translateX</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_C_mouth.translateY</Name>
+      <ID>CTRL_C_mouth.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_jaw_chinCompress.translateY</Name>
+      <ID>CTRL_R_jaw_chinCompress.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_jaw_chinCompress.translateY</Name>
+      <ID>CTRL_L_jaw_chinCompress.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_C_jaw.translateX</Name>
+      <ID>CTRL_C_jaw.translateX</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_C_jaw.translateY</Name>
+      <ID>CTRL_C_jaw.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_jaw_ChinRaiseD.translateY</Name>
+      <ID>CTRL_R_jaw_ChinRaiseD.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_jaw_ChinRaiseD.translateY</Name>
+      <ID>CTRL_L_jaw_ChinRaiseD.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_jaw_ChinRaiseU.translateY</Name>
+      <ID>CTRL_R_jaw_ChinRaiseU.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_jaw_ChinRaiseU.translateY</Name>
+      <ID>CTRL_L_jaw_ChinRaiseU.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_jaw_clench.translateY</Name>
+      <ID>CTRL_L_jaw_clench.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_jaw_clench.translateY</Name>
+      <ID>CTRL_R_jaw_clench.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_C_jaw_openExtreme.translateY</Name>
+      <ID>CTRL_C_jaw_openExtreme.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_mouth_pressD.translateY</Name>
+      <ID>CTRL_L_mouth_pressD.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_mouth_pressD.translateY</Name>
+      <ID>CTRL_R_mouth_pressD.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_mouth_pressU.translateY</Name>
+      <ID>CTRL_R_mouth_pressU.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_mouth_pressU.translateY</Name>
+      <ID>CTRL_L_mouth_pressU.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_mouth_lipsTogetherD.translateY</Name>
+      <ID>CTRL_R_mouth_lipsTogetherD.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_mouth_lipsTogetherD.translateY</Name>
+      <ID>CTRL_L_mouth_lipsTogetherD.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_mouth_lipsTogetherU.translateY</Name>
+      <ID>CTRL_R_mouth_lipsTogetherU.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_mouth_lipsTogetherU.translateY</Name>
+      <ID>CTRL_L_mouth_lipsTogetherU.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_mouth_lipsBlow.translateY</Name>
+      <ID>CTRL_L_mouth_lipsBlow.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_mouth_lipsBlow.translateY</Name>
+      <ID>CTRL_R_mouth_lipsBlow.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_mouth_suckBlow.translateY</Name>
+      <ID>CTRL_L_mouth_suckBlow.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_mouth_suckBlow.translateY</Name>
+      <ID>CTRL_R_mouth_suckBlow.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_C_jaw_fwdBack.translateY</Name>
+      <ID>CTRL_C_jaw_fwdBack.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    </Component>
+  <Component>
+    <Name>Eyes</Name>
+    <ParameterFile>Eyes_Params</ParameterFile>
+    <MovableAttribute>
+      <Name>CTRL_R_nose_wrinkleUpper.translateY</Name>
+      <ID>CTRL_R_nose_wrinkleUpper.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>1</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_nose_wrinkleUpper.translateY</Name>
+      <ID>CTRL_L_nose_wrinkleUpper.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>1</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_eye_lidPress.translateY</Name>
+      <ID>CTRL_R_eye_lidPress.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_eye_lidPress.translateY</Name>
+      <ID>CTRL_L_eye_lidPress.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_eye_pupil.translateY</Name>
+      <ID>CTRL_R_eye_pupil.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_C_eye_parallelLook.translateY</Name>
+      <ID>CTRL_C_eye_parallelLook.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_eye_pupil.translateY</Name>
+      <ID>CTRL_L_eye_pupil.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_eye_blink.translateY</Name>
+      <ID>CTRL_R_eye_blink.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_eye_blink.translateY</Name>
+      <ID>CTRL_L_eye_blink.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_eye.translateX</Name>
+      <ID>CTRL_L_eye.translateX</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_eye.translateY</Name>
+      <ID>CTRL_L_eye.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_eye.translateX</Name>
+      <ID>CTRL_R_eye.translateX</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_eye.translateY</Name>
+      <ID>CTRL_R_eye.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_C_eye.translateX</Name>
+      <ID>CTRL_C_eye.translateX</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_C_eye.translateY</Name>
+      <ID>CTRL_C_eye.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_eye_squintInner.translateY</Name>
+      <ID>CTRL_R_eye_squintInner.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_eye_squintInner.translateY</Name>
+      <ID>CTRL_L_eye_squintInner.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_eye_cheekRaise.translateY</Name>
+      <ID>CTRL_L_eye_cheekRaise.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_eye_cheekRaise.translateY</Name>
+      <ID>CTRL_R_eye_cheekRaise.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    </Component>
+  <Component>
+    <Name>Brows</Name>
+    <ParameterFile>Brows_Params</ParameterFile>
+    <MovableAttribute>
+      <Name>CTRL_L_brow_lateral.translateY</Name>
+      <ID>CTRL_L_brow_lateral.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_brow_down.translateY</Name>
+      <ID>CTRL_R_brow_down.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_brow_lateral.translateY</Name>
+      <ID>CTRL_R_brow_lateral.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_brow_down.translateY</Name>
+      <ID>CTRL_L_brow_down.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_brow_raiseOut.translateY</Name>
+      <ID>CTRL_R_brow_raiseOut.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_R_brow_raiseIn.translateY</Name>
+      <ID>CTRL_R_brow_raiseIn.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_brow_raiseIn.translateY</Name>
+      <ID>CTRL_L_brow_raiseIn.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    <MovableAttribute>
+      <Name>CTRL_L_brow_raiseOut.translateY</Name>
+      <ID>CTRL_L_brow_raiseOut.translateY</ID>
+      <AttributeType>Linear controls</AttributeType>
+      <DefValue>
+        <AttrValue>0</AttrValue>
+            </DefValue>
+        </MovableAttribute>
+    </Component>
+  <Poses>
+    <Version>3.0</Version>
+    <CalibrationFrame>
+      <Name>Eye Direction - LOOK LEFT</Name>
+      <Attribute>eyes_lookLeft</Attribute>
+      <Frame>0</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the eyes so that the character is looking to their left.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Eye Direction - LOOK RIGHT</Name>
+      <Attribute>eyes_lookRight</Attribute>
+      <Frame>1</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the eyes so that the character is looking to their right.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Eye Direction - LOOK UP</Name>
+      <Attribute>eyes_lookUp</Attribute>
+      <Frame>2</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the eyes so that the character is looking up.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Eye Direction - LOOK DOWN</Name>
+      <Attribute>eyes_lookDown</Attribute>
+      <Frame>3</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the eyes so that the character is looking down.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Eye Blink - LEFT</Name>
+      <Attribute>eyes_leftEye_blink</Attribute>
+      <Frame>4</Frame>
+      <IsUse>false</IsUse>
+      <Description>Blink the character&apos;s left eye.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Eye Blink - RIGHT</Name>
+      <Attribute>eyes_rightEye_blink</Attribute>
+      <Frame>5</Frame>
+      <IsUse>false</IsUse>
+      <Description>Blink the character&apos;s right eye.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Eye Wide - LEFT</Name>
+      <Attribute>eyes_leftEye_wide</Attribute>
+      <Frame>6</Frame>
+      <IsUse>false</IsUse>
+      <Description>Open the character&apos;s left eye wider than normal.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Eye Wide - RIGHT</Name>
+      <Attribute>eyes_rightEye_wide</Attribute>
+      <Frame>7</Frame>
+      <IsUse>false</IsUse>
+      <Description>Open the character&apos;s right eye wider than normal.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Eyebrow Up - LEFT</Name>
+      <Attribute>brows_leftBrow_up</Attribute>
+      <Frame>8</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the character&apos;s left eyebrow in the &apos;up&apos; position.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Eyebrow Up - RIGHT</Name>
+      <Attribute>brows_rightBrow_up</Attribute>
+      <Frame>9</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the character&apos;s right eyebrow in the &apos;up&apos; position.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Eyebrow Down - LEFT</Name>
+      <Attribute>brows_leftBrow_down</Attribute>
+      <Frame>10</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the character&apos;s left eyebrow in the &apos;down&apos; position.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Eyebrow Down - RIGHT</Name>
+      <Attribute>brows_rightBrow_down</Attribute>
+      <Frame>11</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the character&apos;s right eyebrow in the &apos;down&apos; position.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Eyebrow Up - CENTER</Name>
+      <Attribute>brows_midBrows_up</Attribute>
+      <Frame>12</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the character&apos;s mid eyebrows in the &apos;up&apos; position.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Eyebrow Down - CENTER</Name>
+      <Attribute>brows_midBrows_down</Attribute>
+      <Frame>13</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the character&apos;s mid eyebrows in the &apos;up&apos; position.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Eyebrow Squeeze - LEFT</Name>
+      <Attribute>brows_leftBrow_squeeze</Attribute>
+      <Frame>14</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the character&apos;s left eyebrow in the &apos;squeezed&apos; position.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Eyebrow Squeeze - RIGHT</Name>
+      <Attribute>brows_rightBrow_squeeze</Attribute>
+      <Frame>15</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the character&apos;s right eyebrow in the &apos;squeezed&apos; position.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Jaw - OPEN</Name>
+      <Attribute>jaw_open</Attribute>
+      <Frame>16</Frame>
+      <IsUse>false</IsUse>
+      <Description>Open the character&apos;s mouth/jaw as wide as it can go.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Jaw - LEFT</Name>
+      <Attribute>jaw_left</Attribute>
+      <Frame>17</Frame>
+      <IsUse>false</IsUse>
+      <Description>Rotate the character&apos;s jaw to the left side.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Jaw - RIGHT</Name>
+      <Attribute>jaw_right</Attribute>
+      <Frame>18</Frame>
+      <IsUse>false</IsUse>
+      <Description>Rotate the character&apos;s jaw to the right side.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Upper Lip Up - LEFT</Name>
+      <Attribute>mouth_upperLip_left_up</Attribute>
+      <Frame>19</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the upper lip&apos;s left side in the &apos;up&apos; position.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Upper Lip Up - RIGHT</Name>
+      <Attribute>mouth_upperLip_right_up</Attribute>
+      <Frame>20</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the upper lip&apos;s right side in the &apos;up&apos; position.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Upper Lip Down - LEFT</Name>
+      <Attribute>mouth_upperLip_left_down</Attribute>
+      <Frame>21</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the upper lip&apos;s left side in the &apos;down&apos; position.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Upper Lip Down - RIGHT</Name>
+      <Attribute>mouth_upperLip_right_down</Attribute>
+      <Frame>22</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the upper lip&apos;s right side in the &apos;down&apos; position.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Lower Lip Up - LEFT</Name>
+      <Attribute>mouth_lowerLip_left_up</Attribute>
+      <Frame>23</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the lower lip&apos;s left side in the &apos;up&apos; position.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Lower Lip Up - RIGHT</Name>
+      <Attribute>mouth_lowerLip_right_up</Attribute>
+      <Frame>24</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the lower lip&apos;s right side in the &apos;up&apos; position.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Lower Lip Down - LEFT</Name>
+      <Attribute>mouth_lowerLip_left_down</Attribute>
+      <Frame>25</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the lower lip&apos;s left side in the &apos;down&apos; position.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Lower Lip Down - RIGHT</Name>
+      <Attribute>mouth_lowerLip_right_down</Attribute>
+      <Frame>26</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the lower lip&apos;s right side in the &apos;down&apos; position.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Mouth Stretch - LEFT</Name>
+      <Attribute>mouth_leftMouth_stretch</Attribute>
+      <Frame>27</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the mouth so it&apos;s stretched on the &apos;left&apos; side.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Mouth Stretch - RIGHT</Name>
+      <Attribute>mouth_rightMouth_stretch</Attribute>
+      <Frame>28</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the mouth so it&apos;s stretched on the &apos;right&apos; side.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Mouth Narrow - LEFT</Name>
+      <Attribute>mouth_leftMouth_narrow</Attribute>
+      <Frame>29</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the mouth so it&apos;s narrowed on the &apos;left&apos; side.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Mouth Narrow - RIGHT</Name>
+      <Attribute>mouth_rightMouth_narrow</Attribute>
+      <Frame>30</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the mouth so it&apos;s narrowed on the &apos;right&apos; side.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Smile - LEFT</Name>
+      <Attribute>mouth_leftMouth_smile</Attribute>
+      <Frame>31</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the mouth so it&apos;s in a smile on the &apos;left&apos; side.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Smile - RIGHT</Name>
+      <Attribute>mouth_rightMouth_smile</Attribute>
+      <Frame>32</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the mouth so it&apos;s in a smile on the &apos;right&apos; side.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Frown - LEFT</Name>
+      <Attribute>mouth_leftMouth_frown</Attribute>
+      <Frame>33</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the mouth so it&apos;s in a frown on the &apos;left&apos; side.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Frown - RIGHT</Name>
+      <Attribute>mouth_rightMouth_frown</Attribute>
+      <Frame>34</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the mouth so it&apos;s in a frown on the &apos;right&apos; side.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Mouth Scrunch - LEFT</Name>
+      <Attribute>mouth_left</Attribute>
+      <Frame>35</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the mouth so it&apos;s scrunched on the &apos;left&apos; side.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Mouth Scrunch - RIGHT</Name>
+      <Attribute>mouth_right</Attribute>
+      <Frame>36</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the mouth so it&apos;s scrunched on the &apos;right&apos; side.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Phoneme - OO</Name>
+      <Attribute>mouth_phoneme_oh_q</Attribute>
+      <Frame>37</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the mouth in an &apos;OO&apos; phoneme shape.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Phoneme - CH</Name>
+      <Attribute>mouth_phoneme_ch</Attribute>
+      <Frame>38</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the mouth in an &apos;CH&apos; phoneme shape.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Phoneme - MBP</Name>
+      <Attribute>mouth_phoneme_mbp</Attribute>
+      <Frame>39</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the mouth in an &apos;MBP&apos; phoneme shape (pressed).</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Phoneme - FV</Name>
+      <Attribute>mouth_phoneme_fv</Attribute>
+      <Frame>40</Frame>
+      <IsUse>false</IsUse>
+      <Description>Pose the mouth in an &apos;FV&apos; phoneme shape.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Mouth Up</Name>
+      <Attribute>mouth_up</Attribute>
+      <Frame>41</Frame>
+      <IsUse>false</IsUse>
+      <Description>Move the character&apos;s entire mouth &apos;up&apos;.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Mouth Down</Name>
+      <Attribute>mouth_down</Attribute>
+      <Frame>42</Frame>
+      <IsUse>false</IsUse>
+      <Description>Move the character&apos;s entire mouth &apos;down&apos;.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Nostril Flare</Name>
+      <Attribute>nose_nostrils_wide</Attribute>
+      <Frame>43</Frame>
+      <IsUse>false</IsUse>
+      <Description>Flare the character&apos;s nostrils as if they&apos;re breathing out sharply.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Nostril Narrow</Name>
+      <Attribute>nose_nostrils_narrow</Attribute>
+      <Frame>44</Frame>
+      <IsUse>false</IsUse>
+      <Description>Narrow the character&apos;s nostrils as if they&apos;re breathing in sharply.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Head Rotation - LEFT</Name>
+      <Attribute>head_Left</Attribute>
+      <Frame>45</Frame>
+      <IsUse>false</IsUse>
+      <Description>Rotate the character&apos;s head 30 degrees to their left.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Head Rotation - RIGHT</Name>
+      <Attribute>head_Right</Attribute>
+      <Frame>46</Frame>
+      <IsUse>false</IsUse>
+      <Description>Rotate the character&apos;s head 30 degrees to their right.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Head Rotation - UP</Name>
+      <Attribute>head_Up</Attribute>
+      <Frame>47</Frame>
+      <IsUse>false</IsUse>
+      <Description>Rotate the character&apos;s head 30 degrees upwards.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Head Rotation - DOWN</Name>
+      <Attribute>head_Down</Attribute>
+      <Frame>48</Frame>
+      <IsUse>false</IsUse>
+      <Description>Rotate the character&apos;s head 30 degrees downwards.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Head Tilt - LEFT</Name>
+      <Attribute>head_LeftTilt</Attribute>
+      <Frame>49</Frame>
+      <IsUse>false</IsUse>
+      <Description>Tilt the character&apos;s head 30 degrees to their left.</Description>
+        </CalibrationFrame>
+    <CalibrationFrame>
+      <Name>Head Tilt - RIGHT</Name>
+      <Attribute>head_RightTilt</Attribute>
+      <Frame>50</Frame>
+      <IsUse>false</IsUse>
+      <Description>Tilt the character&apos;s head 30 degrees to their right.</Description>
+        </CalibrationFrame>
+    </Poses>
+</CharacterConfiguration>
