@@ -62,6 +62,50 @@
           <FrameNumber>3303</FrameNumber>
                 </PoseId>
             </SelectedPoses>
+      <SelectedSharedPoses>
+        <PoseId>
+          <JobName>ROM</JobName>
+          <JobID>7399909a-3e7e-48c0-9154-330f88ec3d87</JobID>
+          <Component>Brows</Component>
+          <FrameNumber>516</FrameNumber>
+                </PoseId>
+        <PoseId>
+          <JobName>ROM</JobName>
+          <JobID>7399909a-3e7e-48c0-9154-330f88ec3d87</JobID>
+          <Component>Brows</Component>
+          <FrameNumber>666</FrameNumber>
+                </PoseId>
+        <PoseId>
+          <JobName>ROM</JobName>
+          <JobID>7399909a-3e7e-48c0-9154-330f88ec3d87</JobID>
+          <Component>Brows</Component>
+          <FrameNumber>957</FrameNumber>
+                </PoseId>
+        <PoseId>
+          <JobName>ROM</JobName>
+          <JobID>7399909a-3e7e-48c0-9154-330f88ec3d87</JobID>
+          <Component>Brows</Component>
+          <FrameNumber>2787</FrameNumber>
+                </PoseId>
+        <PoseId>
+          <JobName>ROM</JobName>
+          <JobID>7399909a-3e7e-48c0-9154-330f88ec3d87</JobID>
+          <Component>Brows</Component>
+          <FrameNumber>2949</FrameNumber>
+                </PoseId>
+        <PoseId>
+          <JobName>ROM</JobName>
+          <JobID>7399909a-3e7e-48c0-9154-330f88ec3d87</JobID>
+          <Component>Brows</Component>
+          <FrameNumber>3026</FrameNumber>
+                </PoseId>
+        <PoseId>
+          <JobName>ROM</JobName>
+          <JobID>7399909a-3e7e-48c0-9154-330f88ec3d87</JobID>
+          <Component>Brows</Component>
+          <FrameNumber>3303</FrameNumber>
+                </PoseId>
+            </SelectedSharedPoses>
         </RetargetRange>
     </RetargetRanges>
   <Poses>
