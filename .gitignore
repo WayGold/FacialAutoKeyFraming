@@ -2,3 +2,4 @@
 *.pyc
 dataTools/DataCollector/out
 *.MP4
+venv
