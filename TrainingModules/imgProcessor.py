@@ -21,6 +21,7 @@ def resize_img(img_path):
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
+    print(resized.reshape(1, 180 * 320))
 
 if __name__ == '__main__':
     test_img = '../Faceware/ROM_fwt/video/ROM_full/ROM.0000.jpg'

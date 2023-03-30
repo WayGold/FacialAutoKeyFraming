@@ -1,0 +1,921 @@
+<?xml version="1.0"?>
+<!-- written on 02-Feb-2010 10:57:13 -->
+<ImageMetricsAnalysisDefinition>
+  <Landmarks>
+    <Landmark>
+      <Name>MOUTH_LIP_OUTER_VEE_RIGHT</Name>
+      <Position type="double">0.31 0.69</Position>
+    </Landmark>
+    <Landmark>
+      <Name>MOUTH_LIP_OUTER_VEE_RIGHT-MOUTH_LIP_OUTER_CORNER_RIGHT-0.33333</Name>
+      <Position type="double">0.26 0.69</Position>
+    </Landmark>
+    <Landmark>
+      <Name>MOUTH_LIP_OUTER_VEE_RIGHT-MOUTH_LIP_OUTER_CORNER_RIGHT-0.66667</Name>
+      <Position type="double">0.23 0.7</Position>
+    </Landmark>
+    <Landmark>
+      <Name>MOUTH_LIP_OUTER_CORNER_RIGHT</Name>
+      <Position type="double">0.2 0.71</Position>
+    </Landmark>
+    <Landmark>
+      <Name>MOUTH_LIP_OUTER_CORNER_RIGHT-MOUTH_LIP_OUTER_BOTTOM_MIDDLE-0.33333</Name>
+      <Position type="double">0.24 0.73</Position>
+    </Landmark>
+    <Landmark>
+      <Name>MOUTH_LIP_OUTER_CORNER_RIGHT-MOUTH_LIP_OUTER_BOTTOM_MIDDLE-0.66667</Name>
+      <Position type="double">0.29 0.75</Position>
+    </Landmark>
+    <Landmark>
+      <Name>MOUTH_LIP_OUTER_BOTTOM_MIDDLE</Name>
+      <Position type="double">0.35 0.75</Position>
+    </Landmark>
+    <Landmark>
+      <Name>MOUTH_LIP_OUTER_BOTTOM_MIDDLE-MOUTH_LIP_OUTER_CORNER_LEFT-0.33333</Name>
+      <Position type="double">0.42 0.75</Position>
+    </Landmark>
+    <Landmark>
+      <Name>MOUTH_LIP_OUTER_BOTTOM_MIDDLE-MOUTH_LIP_OUTER_CORNER_LEFT-0.66667</Name>
+      <Position type="double">0.48 0.73</Position>
+    </Landmark>
+    <Landmark>
+      <Name>MOUTH_LIP_OUTER_CORNER_LEFT</Name>
+      <Position type="double">0.52 0.71</Position>
+    </Landmark>
+    <Landmark>
+      <Name>MOUTH_LIP_OUTER_CORNER_LEFT-MOUTH_LIP_OUTER_VEE_LEFT-0.33333</Name>
+      <Position type="double">0.48 0.7</Position>
+    </Landmark>
+    <Landmark>
+      <Name>MOUTH_LIP_OUTER_CORNER_LEFT-MOUTH_LIP_OUTER_VEE_LEFT-0.66667</Name>
+      <Position type="double">0.44 0.69</Position>
+    </Landmark>
+    <Landmark>
+      <Name>MOUTH_LIP_OUTER_VEE_LEFT</Name>
+      <Position type="double">0.4 0.69</Position>
+    </Landmark>
+    <Landmark>
+      <Name>MOUTH_LIP_OUTER_TOP_MIDDLE</Name>
+      <Position type="double">0.35 0.69</Position>
+    </Landmark>
+    <Landmark>
+      <Name>MOUTH_LIP_INNER_TOP_MIDDLE-MOUTH_LIP_INNER_CORNER_RIGHT-0.66667</Name>
+      <Position type="double">0.25 0.7</Position>
+    </Landmark>
+    <Landmark>
+      <Name>MOUTH_LIP_INNER_CORNER_RIGHT</Name>
+      <Position type="double">0.2 0.71</Position>
+    </Landmark>
+    <Landmark>
+      <Name>MOUTH_LIP_INNER_CORNER_RIGHT-MOUTH_LIP_INNER_BOTTOM_MIDDLE-0.33333</Name>
+      <Position type="double">0.25 0.72</Position>
+    </Landmark>
+    <Landmark>
+      <Name>MOUTH_LIP_INNER_CORNER_RIGHT-MOUTH_LIP_INNER_BOTTOM_MIDDLE-0.66667</Name>
+      <Position type="double">0.3 0.72</Position>
+    </Landmark>
+    <Landmark>
+      <Name>MOUTH_LIP_INNER_BOTTOM_MIDDLE</Name>
+      <Position type="double">0.35 0.72</Position>
+    </Landmark>
+    <Landmark>
+      <Name>MOUTH_LIP_INNER_BOTTOM_MIDDLE-MOUTH_LIP_INNER_CORNER_LEFT-0.33333</Name>
+      <Position type="double">0.4 0.72</Position>
+    </Landmark>
+    <Landmark>
+      <Name>MOUTH_LIP_INNER_BOTTOM_MIDDLE-MOUTH_LIP_INNER_CORNER_LEFT-0.66667</Name>
+      <Position type="double">0.45 0.72</Position>
+    </Landmark>
+    <Landmark>
+      <Name>MOUTH_LIP_INNER_CORNER_LEFT</Name>
+      <Position type="double">0.51 0.71</Position>
+    </Landmark>
+    <Landmark>
+      <Name>MOUTH_LIP_INNER_CORNER_LEFT-MOUTH_LIP_INNER_TOP_MIDDLE-0.33333</Name>
+      <Position type="double">0.45 0.71</Position>
+    </Landmark>
+    <Landmark>
+      <Name>MOUTH_LIP_INNER_CORNER_LEFT-MOUTH_LIP_INNER_TOP_MIDDLE-0.66667</Name>
+      <Position type="double">0.4 0.71</Position>
+    </Landmark>
+    <Landmark>
+      <Name>MOUTH_LIP_INNER_TOP_MIDDLE</Name>
+      <Position type="double">0.35 0.71</Position>
+    </Landmark>
+    <Landmark>
+      <Name>MOUTH_LIP_INNER_TOP_MIDDLE-MOUTH_LIP_INNER_CORNER_RIGHT-0.33333</Name>
+      <Position type="double">0.3 0.7</Position>
+    </Landmark>
+    <Landmark>
+      <Name>NOSTRIL_OUTER_RIGHT</Name>
+      <Position type="double">0.29 0.59</Position>
+    </Landmark>
+    <Landmark>
+      <Name>NOSE_LOWER_MIDDLE</Name>
+      <Position type="double">0.36 0.63</Position>
+    </Landmark>
+    <Landmark>
+      <Name>NOSTRIL_OUTER_LEFT</Name>
+      <Position type="double">0.44 0.6</Position>
+    </Landmark>
+    <Landmark>
+      <Name>EYE_TOP_RIGHT</Name>
+      <Position type="double">0.2 0.44</Position>
+    </Landmark>
+    <Landmark>
+      <Name>EYE_CORNER_OUTER_RIGHT</Name>
+      <Position type="double">0.12 0.48</Position>
+    </Landmark>
+    <Landmark>
+      <Name>EYE_BOTTOM_RIGHT</Name>
+      <Position type="double">0.2 0.49</Position>
+    </Landmark>
+    <Landmark>
+      <Name>EYE_CORNER_INNER_RIGHT</Name>
+      <Position type="double">0.28 0.48</Position>
+    </Landmark>
+    <Landmark>
+      <Name>EYE_TOP_LEFT</Name>
+      <Position type="double">0.54 0.45</Position>
+    </Landmark>
+    <Landmark>
+      <Name>EYE_CORNER_INNER_LEFT</Name>
+      <Position type="double">0.46 0.48</Position>
+    </Landmark>
+    <Landmark>
+      <Name>EYE_BOTTOM_LEFT</Name>
+      <Position type="double">0.55 0.49</Position>
+    </Landmark>
+    <Landmark>
+      <Name>EYE_CORNER_OUTER_LEFT</Name>
+      <Position type="double">0.62 0.48</Position>
+    </Landmark>
+    <Landmark>
+      <Name>PUPIL_OUTER_LEFT</Name>
+      <Position type="double">0.51 0.47</Position>
+    </Landmark>
+    <Landmark>
+      <Name>PUPIL_INNER_LEFT</Name>
+      <Position type="double">0.57 0.47</Position>
+    </Landmark>
+    <Landmark>
+      <Name>PUPIL_OUTER_RIGHT</Name>
+      <Position type="double">0.16 0.47</Position>
+    </Landmark>
+    <Landmark>
+      <Name>PUPIL_INNER_RIGHT</Name>
+      <Position type="double">0.23 0.47</Position>
+    </Landmark>
+    <Landmark>
+      <Name>BROW_INNER_RIGHT</Name>
+      <Position type="double">0.29 0.41</Position>
+    </Landmark>
+    <Landmark>
+      <Name>BROW_INNER_RIGHT-BROW_MIDDLE_RIGHT-0.5</Name>
+      <Position type="double">0.23 0.38</Position>
+    </Landmark>
+    <Landmark>
+      <Name>BROW_MIDDLE_RIGHT</Name>
+      <Position type="double">0.17 0.38</Position>
+    </Landmark>
+    <Landmark>
+      <Name>BROW_MIDDLE_RIGHT-BROW_OUTER_RIGHT-0.5</Name>
+      <Position type="double">0.12 0.4</Position>
+    </Landmark>
+    <Landmark>
+      <Name>BROW_OUTER_RIGHT</Name>
+      <Position type="double">0.1 0.42</Position>
+    </Landmark>
+    <Landmark>
+      <Name>BROW_OUTER_LEFT</Name>
+      <Position type="double">0.64 0.43</Position>
+    </Landmark>
+    <Landmark>
+      <Name>BROW_MIDDLE_LEFT-BROW_OUTER_LEFT-0.5</Name>
+      <Position type="double">0.61 0.41</Position>
+    </Landmark>
+    <Landmark>
+      <Name>BROW_MIDDLE_LEFT</Name>
+      <Position type="double">0.55 0.39</Position>
+    </Landmark>
+    <Landmark>
+      <Name>BROW_INNER_LEFT-BROW_MIDDLE_LEFT-0.5</Name>
+      <Position type="double">0.48 0.39</Position>
+    </Landmark>
+    <Landmark>
+      <Name>BROW_INNER_LEFT</Name>
+      <Position type="double">0.43 0.41</Position>
+    </Landmark>
+  </Landmarks>
+  <LandmarkGroups>
+    <LandmarkGroup>
+      <Name>MouthOuter</Name>
+      <Landmarks>
+        <Landmark>MOUTH_LIP_OUTER_VEE_RIGHT</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_VEE_RIGHT-MOUTH_LIP_OUTER_CORNER_RIGHT-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_VEE_RIGHT-MOUTH_LIP_OUTER_CORNER_RIGHT-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_CORNER_RIGHT</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_CORNER_RIGHT-MOUTH_LIP_OUTER_BOTTOM_MIDDLE-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_CORNER_RIGHT-MOUTH_LIP_OUTER_BOTTOM_MIDDLE-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_BOTTOM_MIDDLE</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_BOTTOM_MIDDLE-MOUTH_LIP_OUTER_CORNER_LEFT-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_BOTTOM_MIDDLE-MOUTH_LIP_OUTER_CORNER_LEFT-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_CORNER_LEFT</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_CORNER_LEFT-MOUTH_LIP_OUTER_VEE_LEFT-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_CORNER_LEFT-MOUTH_LIP_OUTER_VEE_LEFT-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_VEE_LEFT</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_TOP_MIDDLE</Landmark>
+      </Landmarks>
+      <Lines>
+        <Line>MOUTH_LIP_OUTER_VEE_RIGHT,MOUTH_LIP_OUTER_VEE_RIGHT-MOUTH_LIP_OUTER_CORNER_RIGHT-0.33333,MOUTH_LIP_OUTER_VEE_RIGHT-MOUTH_LIP_OUTER_CORNER_RIGHT-0.66667,MOUTH_LIP_OUTER_CORNER_RIGHT,MOUTH_LIP_OUTER_CORNER_RIGHT-MOUTH_LIP_OUTER_BOTTOM_MIDDLE-0.33333,MOUTH_LIP_OUTER_CORNER_RIGHT-MOUTH_LIP_OUTER_BOTTOM_MIDDLE-0.66667,MOUTH_LIP_OUTER_BOTTOM_MIDDLE,MOUTH_LIP_OUTER_BOTTOM_MIDDLE-MOUTH_LIP_OUTER_CORNER_LEFT-0.33333,MOUTH_LIP_OUTER_BOTTOM_MIDDLE-MOUTH_LIP_OUTER_CORNER_LEFT-0.66667,MOUTH_LIP_OUTER_CORNER_LEFT,MOUTH_LIP_OUTER_CORNER_LEFT-MOUTH_LIP_OUTER_VEE_LEFT-0.33333,MOUTH_LIP_OUTER_CORNER_LEFT-MOUTH_LIP_OUTER_VEE_LEFT-0.66667,MOUTH_LIP_OUTER_VEE_LEFT,MOUTH_LIP_OUTER_TOP_MIDDLE,MOUTH_LIP_OUTER_VEE_RIGHT</Line>
+      </Lines>
+    </LandmarkGroup>
+    <LandmarkGroup>
+      <Name>MouthInner</Name>
+      <Landmarks>
+        <Landmark>MOUTH_LIP_INNER_TOP_MIDDLE-MOUTH_LIP_INNER_CORNER_RIGHT-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_INNER_CORNER_RIGHT</Landmark>
+        <Landmark>MOUTH_LIP_INNER_CORNER_RIGHT-MOUTH_LIP_INNER_BOTTOM_MIDDLE-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_INNER_CORNER_RIGHT-MOUTH_LIP_INNER_BOTTOM_MIDDLE-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_INNER_BOTTOM_MIDDLE</Landmark>
+        <Landmark>MOUTH_LIP_INNER_BOTTOM_MIDDLE-MOUTH_LIP_INNER_CORNER_LEFT-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_INNER_BOTTOM_MIDDLE-MOUTH_LIP_INNER_CORNER_LEFT-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_INNER_CORNER_LEFT</Landmark>
+        <Landmark>MOUTH_LIP_INNER_CORNER_LEFT-MOUTH_LIP_INNER_TOP_MIDDLE-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_INNER_CORNER_LEFT-MOUTH_LIP_INNER_TOP_MIDDLE-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_INNER_TOP_MIDDLE</Landmark>
+        <Landmark>MOUTH_LIP_INNER_TOP_MIDDLE-MOUTH_LIP_INNER_CORNER_RIGHT-0.33333</Landmark>
+      </Landmarks>
+      <Lines>
+        <Line>MOUTH_LIP_INNER_TOP_MIDDLE-MOUTH_LIP_INNER_CORNER_RIGHT-0.66667,MOUTH_LIP_INNER_CORNER_RIGHT,MOUTH_LIP_INNER_CORNER_RIGHT-MOUTH_LIP_INNER_BOTTOM_MIDDLE-0.33333,MOUTH_LIP_INNER_CORNER_RIGHT-MOUTH_LIP_INNER_BOTTOM_MIDDLE-0.66667,MOUTH_LIP_INNER_BOTTOM_MIDDLE,MOUTH_LIP_INNER_BOTTOM_MIDDLE-MOUTH_LIP_INNER_CORNER_LEFT-0.33333,MOUTH_LIP_INNER_BOTTOM_MIDDLE-MOUTH_LIP_INNER_CORNER_LEFT-0.66667,MOUTH_LIP_INNER_CORNER_LEFT,MOUTH_LIP_INNER_CORNER_LEFT-MOUTH_LIP_INNER_TOP_MIDDLE-0.33333,MOUTH_LIP_INNER_CORNER_LEFT-MOUTH_LIP_INNER_TOP_MIDDLE-0.66667,MOUTH_LIP_INNER_TOP_MIDDLE,MOUTH_LIP_INNER_TOP_MIDDLE-MOUTH_LIP_INNER_CORNER_RIGHT-0.33333,MOUTH_LIP_INNER_TOP_MIDDLE-MOUTH_LIP_INNER_CORNER_RIGHT-0.66667</Line>
+      </Lines>
+    </LandmarkGroup>
+    <LandmarkGroup>
+      <Name>Nose</Name>
+      <Landmarks>
+        <Landmark>NOSTRIL_OUTER_RIGHT</Landmark>
+        <Landmark>NOSE_LOWER_MIDDLE</Landmark>
+        <Landmark>NOSTRIL_OUTER_LEFT</Landmark>
+      </Landmarks>
+      <Lines>
+        <Line>NOSTRIL_OUTER_RIGHT,NOSE_LOWER_MIDDLE,NOSTRIL_OUTER_LEFT</Line>
+      </Lines>
+    </LandmarkGroup>
+    <LandmarkGroup>
+      <Name>EyeRight</Name>
+      <Landmarks>
+        <Landmark>EYE_TOP_RIGHT</Landmark>
+        <Landmark>EYE_CORNER_OUTER_RIGHT</Landmark>
+        <Landmark>EYE_BOTTOM_RIGHT</Landmark>
+        <Landmark>EYE_CORNER_INNER_RIGHT</Landmark>
+      </Landmarks>
+      <Lines>
+        <Line>EYE_TOP_RIGHT,EYE_CORNER_OUTER_RIGHT,EYE_BOTTOM_RIGHT,EYE_CORNER_INNER_RIGHT,EYE_TOP_RIGHT</Line>
+      </Lines>
+    </LandmarkGroup>
+    <LandmarkGroup>
+      <Name>EyeLeft</Name>
+      <Landmarks>
+        <Landmark>EYE_TOP_LEFT</Landmark>
+        <Landmark>EYE_CORNER_INNER_LEFT</Landmark>
+        <Landmark>EYE_BOTTOM_LEFT</Landmark>
+        <Landmark>EYE_CORNER_OUTER_LEFT</Landmark>
+      </Landmarks>
+      <Lines>
+        <Line>EYE_TOP_LEFT,EYE_CORNER_INNER_LEFT,EYE_BOTTOM_LEFT,EYE_CORNER_OUTER_LEFT,EYE_TOP_LEFT</Line>
+      </Lines>
+    </LandmarkGroup>
+    <LandmarkGroup>
+      <Name>EyePupilLeft</Name>
+      <Landmarks>
+        <Landmark>PUPIL_OUTER_LEFT</Landmark>
+        <Landmark>PUPIL_INNER_LEFT</Landmark>
+      </Landmarks>
+      <Lines>
+        <Line>PUPIL_OUTER_LEFT,PUPIL_INNER_LEFT</Line>
+      </Lines>
+    </LandmarkGroup>
+    <LandmarkGroup>
+      <Name>EyePupilRight</Name>
+      <Landmarks>
+        <Landmark>PUPIL_OUTER_RIGHT</Landmark>
+        <Landmark>PUPIL_INNER_RIGHT</Landmark>
+      </Landmarks>
+      <Lines>
+        <Line>PUPIL_OUTER_RIGHT,PUPIL_INNER_RIGHT</Line>
+      </Lines>
+    </LandmarkGroup>
+    <LandmarkGroup>
+      <Name>BrowRight</Name>
+      <Landmarks>
+        <Landmark>BROW_INNER_RIGHT</Landmark>
+        <Landmark>BROW_INNER_RIGHT-BROW_MIDDLE_RIGHT-0.5</Landmark>
+        <Landmark>BROW_MIDDLE_RIGHT</Landmark>
+        <Landmark>BROW_MIDDLE_RIGHT-BROW_OUTER_RIGHT-0.5</Landmark>
+        <Landmark>BROW_OUTER_RIGHT</Landmark>
+      </Landmarks>
+      <Lines>
+        <Line>BROW_INNER_RIGHT,BROW_INNER_RIGHT-BROW_MIDDLE_RIGHT-0.5,BROW_MIDDLE_RIGHT,BROW_MIDDLE_RIGHT-BROW_OUTER_RIGHT-0.5,BROW_OUTER_RIGHT</Line>
+      </Lines>
+    </LandmarkGroup>
+    <LandmarkGroup>
+      <Name>BrowLeft</Name>
+      <Landmarks>
+        <Landmark>BROW_OUTER_LEFT</Landmark>
+        <Landmark>BROW_MIDDLE_LEFT-BROW_OUTER_LEFT-0.5</Landmark>
+        <Landmark>BROW_MIDDLE_LEFT</Landmark>
+        <Landmark>BROW_INNER_LEFT-BROW_MIDDLE_LEFT-0.5</Landmark>
+        <Landmark>BROW_INNER_LEFT</Landmark>
+      </Landmarks>
+      <Lines>
+        <Line>BROW_OUTER_LEFT,BROW_MIDDLE_LEFT-BROW_OUTER_LEFT-0.5,BROW_MIDDLE_LEFT,BROW_INNER_LEFT-BROW_MIDDLE_LEFT-0.5,BROW_INNER_LEFT</Line>
+      </Lines>
+    </LandmarkGroup>
+  </LandmarkGroups>
+  <MarkupGroups>
+    <MarkupGroup>
+      <Name>Face</Name>
+      <Landmarks>
+        <Landmark>MOUTH_LIP_OUTER_VEE_RIGHT</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_VEE_RIGHT-MOUTH_LIP_OUTER_CORNER_RIGHT-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_VEE_RIGHT-MOUTH_LIP_OUTER_CORNER_RIGHT-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_CORNER_RIGHT</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_CORNER_RIGHT-MOUTH_LIP_OUTER_BOTTOM_MIDDLE-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_CORNER_RIGHT-MOUTH_LIP_OUTER_BOTTOM_MIDDLE-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_BOTTOM_MIDDLE</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_BOTTOM_MIDDLE-MOUTH_LIP_OUTER_CORNER_LEFT-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_BOTTOM_MIDDLE-MOUTH_LIP_OUTER_CORNER_LEFT-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_CORNER_LEFT</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_CORNER_LEFT-MOUTH_LIP_OUTER_VEE_LEFT-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_CORNER_LEFT-MOUTH_LIP_OUTER_VEE_LEFT-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_VEE_LEFT</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_TOP_MIDDLE</Landmark>
+        <Landmark>MOUTH_LIP_INNER_TOP_MIDDLE-MOUTH_LIP_INNER_CORNER_RIGHT-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_INNER_CORNER_RIGHT</Landmark>
+        <Landmark>MOUTH_LIP_INNER_CORNER_RIGHT-MOUTH_LIP_INNER_BOTTOM_MIDDLE-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_INNER_CORNER_RIGHT-MOUTH_LIP_INNER_BOTTOM_MIDDLE-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_INNER_BOTTOM_MIDDLE</Landmark>
+        <Landmark>MOUTH_LIP_INNER_BOTTOM_MIDDLE-MOUTH_LIP_INNER_CORNER_LEFT-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_INNER_BOTTOM_MIDDLE-MOUTH_LIP_INNER_CORNER_LEFT-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_INNER_CORNER_LEFT</Landmark>
+        <Landmark>MOUTH_LIP_INNER_CORNER_LEFT-MOUTH_LIP_INNER_TOP_MIDDLE-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_INNER_CORNER_LEFT-MOUTH_LIP_INNER_TOP_MIDDLE-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_INNER_TOP_MIDDLE</Landmark>
+        <Landmark>MOUTH_LIP_INNER_TOP_MIDDLE-MOUTH_LIP_INNER_CORNER_RIGHT-0.33333</Landmark>
+        <Landmark>NOSTRIL_OUTER_RIGHT</Landmark>
+        <Landmark>NOSE_LOWER_MIDDLE</Landmark>
+        <Landmark>NOSTRIL_OUTER_LEFT</Landmark>
+        <Landmark>EYE_TOP_RIGHT</Landmark>
+        <Landmark>EYE_CORNER_OUTER_RIGHT</Landmark>
+        <Landmark>EYE_BOTTOM_RIGHT</Landmark>
+        <Landmark>EYE_CORNER_INNER_RIGHT</Landmark>
+        <Landmark>EYE_TOP_LEFT</Landmark>
+        <Landmark>EYE_CORNER_INNER_LEFT</Landmark>
+        <Landmark>EYE_BOTTOM_LEFT</Landmark>
+        <Landmark>EYE_CORNER_OUTER_LEFT</Landmark>
+        <Landmark>PUPIL_OUTER_LEFT</Landmark>
+        <Landmark>PUPIL_INNER_LEFT</Landmark>
+        <Landmark>PUPIL_OUTER_RIGHT</Landmark>
+        <Landmark>PUPIL_INNER_RIGHT</Landmark>
+        <Landmark>BROW_INNER_RIGHT</Landmark>
+        <Landmark>BROW_INNER_RIGHT-BROW_MIDDLE_RIGHT-0.5</Landmark>
+        <Landmark>BROW_MIDDLE_RIGHT</Landmark>
+        <Landmark>BROW_MIDDLE_RIGHT-BROW_OUTER_RIGHT-0.5</Landmark>
+        <Landmark>BROW_OUTER_RIGHT</Landmark>
+        <Landmark>BROW_OUTER_LEFT</Landmark>
+        <Landmark>BROW_MIDDLE_LEFT-BROW_OUTER_LEFT-0.5</Landmark>
+        <Landmark>BROW_MIDDLE_LEFT</Landmark>
+        <Landmark>BROW_INNER_LEFT-BROW_MIDDLE_LEFT-0.5</Landmark>
+        <Landmark>BROW_INNER_LEFT</Landmark>
+      </Landmarks>
+      <LandmarkGroups>
+        <LandmarkGroup>MouthOuter</LandmarkGroup>
+        <LandmarkGroup>MouthInner</LandmarkGroup>
+        <LandmarkGroup>Nose</LandmarkGroup>
+        <LandmarkGroup>EyeRight</LandmarkGroup>
+        <LandmarkGroup>EyeLeft</LandmarkGroup>
+        <LandmarkGroup>EyePupilLeft</LandmarkGroup>
+        <LandmarkGroup>EyePupilRight</LandmarkGroup>
+        <LandmarkGroup>BrowRight</LandmarkGroup>
+        <LandmarkGroup>BrowLeft</LandmarkGroup>
+      </LandmarkGroups>
+      <TrackingOptions>
+        <shapeTrackerTrainingData>
+          <samplertrainingdata>
+	        <sampleradius type="double">0.11</sampleradius>
+		    <xsamplespacing type="double">0.02</xsamplespacing>
+		    <ysamplespacing type="double">0.02</ysamplespacing>
+            <isgreyscale type="double">1</isgreyscale>
+			<normalise>global</normalise>		
+          </samplertrainingdata>
+          <displacementParameters>
+            <offset type="double">0.03</offset>
+          </displacementParameters>
+		  <updateParameters>
+		    <regularisation>
+			  <landmarkScaleFactor type="double">0.001</landmarkScaleFactor>
+			  <fixedlandmarkScaleFactor type="double">1</fixedlandmarkScaleFactor>
+		    </regularisation>
+		  </updateParameters>
+        </shapeTrackerTrainingData>
+      </TrackingOptions>
+    </MarkupGroup>
+    <MarkupGroup>
+      <Name>Mouth</Name>
+      <Landmarks>
+        <Landmark>MOUTH_LIP_OUTER_VEE_RIGHT</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_VEE_RIGHT-MOUTH_LIP_OUTER_CORNER_RIGHT-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_VEE_RIGHT-MOUTH_LIP_OUTER_CORNER_RIGHT-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_CORNER_RIGHT</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_CORNER_RIGHT-MOUTH_LIP_OUTER_BOTTOM_MIDDLE-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_CORNER_RIGHT-MOUTH_LIP_OUTER_BOTTOM_MIDDLE-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_BOTTOM_MIDDLE</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_BOTTOM_MIDDLE-MOUTH_LIP_OUTER_CORNER_LEFT-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_BOTTOM_MIDDLE-MOUTH_LIP_OUTER_CORNER_LEFT-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_CORNER_LEFT</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_CORNER_LEFT-MOUTH_LIP_OUTER_VEE_LEFT-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_CORNER_LEFT-MOUTH_LIP_OUTER_VEE_LEFT-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_VEE_LEFT</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_TOP_MIDDLE</Landmark>
+        <Landmark>MOUTH_LIP_INNER_TOP_MIDDLE-MOUTH_LIP_INNER_CORNER_RIGHT-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_INNER_CORNER_RIGHT</Landmark>
+        <Landmark>MOUTH_LIP_INNER_CORNER_RIGHT-MOUTH_LIP_INNER_BOTTOM_MIDDLE-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_INNER_CORNER_RIGHT-MOUTH_LIP_INNER_BOTTOM_MIDDLE-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_INNER_BOTTOM_MIDDLE</Landmark>
+        <Landmark>MOUTH_LIP_INNER_BOTTOM_MIDDLE-MOUTH_LIP_INNER_CORNER_LEFT-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_INNER_BOTTOM_MIDDLE-MOUTH_LIP_INNER_CORNER_LEFT-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_INNER_CORNER_LEFT</Landmark>
+        <Landmark>MOUTH_LIP_INNER_CORNER_LEFT-MOUTH_LIP_INNER_TOP_MIDDLE-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_INNER_CORNER_LEFT-MOUTH_LIP_INNER_TOP_MIDDLE-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_INNER_TOP_MIDDLE</Landmark>
+        <Landmark>MOUTH_LIP_INNER_TOP_MIDDLE-MOUTH_LIP_INNER_CORNER_RIGHT-0.33333</Landmark>
+        <Landmark>NOSTRIL_OUTER_RIGHT</Landmark>
+        <Landmark>NOSE_LOWER_MIDDLE</Landmark>
+        <Landmark>NOSTRIL_OUTER_LEFT</Landmark>
+      </Landmarks>
+      <LandmarkGroups>
+        <LandmarkGroup>MouthOuter</LandmarkGroup>
+        <LandmarkGroup>MouthInner</LandmarkGroup>
+        <LandmarkGroup>Nose</LandmarkGroup>
+      </LandmarkGroups>
+      <TrackingOptions>
+        <shapeTrackerTrainingData>
+          <samplertrainingdata>
+            <sampleradius type="double">0.3</sampleradius>
+            <xsamplespacing type="double">0.02</xsamplespacing>
+            <ysamplespacing type="double">0.02</ysamplespacing>
+            <isgreyscale type="double">1</isgreyscale>
+			<normalise>global</normalise>
+          </samplertrainingdata>
+          <displacementParameters>
+            <offset type="double">0.03</offset>
+          </displacementParameters>
+		  <updateParameters>
+		    <regularisation>
+			  <landmarkScaleFactor type="double">0.001</landmarkScaleFactor>
+			  <fixedlandmarkScaleFactor type="double">1</fixedlandmarkScaleFactor>
+		    </regularisation>
+		  </updateParameters>
+		</shapeTrackerTrainingData>
+      </TrackingOptions>
+    </MarkupGroup>
+    <MarkupGroup>
+      <Name>Eyes</Name>
+      <Landmarks>
+        <Landmark>NOSTRIL_OUTER_RIGHT</Landmark>
+        <Landmark>NOSE_LOWER_MIDDLE</Landmark>
+        <Landmark>NOSTRIL_OUTER_LEFT</Landmark>
+        <Landmark>EYE_TOP_RIGHT</Landmark>
+        <Landmark>EYE_CORNER_OUTER_RIGHT</Landmark>
+        <Landmark>EYE_BOTTOM_RIGHT</Landmark>
+        <Landmark>EYE_CORNER_INNER_RIGHT</Landmark>
+        <Landmark>EYE_TOP_LEFT</Landmark>
+        <Landmark>EYE_CORNER_INNER_LEFT</Landmark>
+        <Landmark>EYE_BOTTOM_LEFT</Landmark>
+        <Landmark>EYE_CORNER_OUTER_LEFT</Landmark>
+        <Landmark>PUPIL_OUTER_LEFT</Landmark>
+        <Landmark>PUPIL_INNER_LEFT</Landmark>
+        <Landmark>PUPIL_OUTER_RIGHT</Landmark>
+        <Landmark>PUPIL_INNER_RIGHT</Landmark>
+      </Landmarks>
+      <LandmarkGroups>
+        <LandmarkGroup>Nose</LandmarkGroup>
+        <LandmarkGroup>EyeRight</LandmarkGroup>
+        <LandmarkGroup>EyeLeft</LandmarkGroup>
+        <LandmarkGroup>EyePupilLeft</LandmarkGroup>
+        <LandmarkGroup>EyePupilRight</LandmarkGroup>
+      </LandmarkGroups>
+      <TrackingOptions>
+        <shapeTrackerTrainingData>
+          <samplertrainingdata>
+            <sampleradius type="double">0.15</sampleradius>
+            <xsamplespacing type="double">0.015</xsamplespacing>
+            <ysamplespacing type="double">0.015</ysamplespacing>
+            <isgreyscale type="double">1</isgreyscale>
+			<normalise>global</normalise>
+          </samplertrainingdata>
+          <displacementParameters>
+            <offset type="double">0.015</offset>
+          </displacementParameters>
+		  <updateParameters>
+		    <regularisation>
+			  <landmarkScaleFactor type="double">0.001</landmarkScaleFactor>
+			  <fixedlandmarkScaleFactor type="double">1</fixedlandmarkScaleFactor>
+		    </regularisation>
+		  </updateParameters>
+        </shapeTrackerTrainingData>
+      </TrackingOptions>
+    </MarkupGroup>
+    <MarkupGroup>
+      <Name>Brows</Name>
+      <Landmarks>
+        <Landmark>NOSTRIL_OUTER_RIGHT</Landmark>
+        <Landmark>NOSE_LOWER_MIDDLE</Landmark>
+        <Landmark>NOSTRIL_OUTER_LEFT</Landmark>
+        <Landmark>BROW_INNER_RIGHT</Landmark>
+        <Landmark>BROW_INNER_RIGHT-BROW_MIDDLE_RIGHT-0.5</Landmark>
+        <Landmark>BROW_MIDDLE_RIGHT</Landmark>
+        <Landmark>BROW_MIDDLE_RIGHT-BROW_OUTER_RIGHT-0.5</Landmark>
+        <Landmark>BROW_OUTER_RIGHT</Landmark>
+        <Landmark>BROW_OUTER_LEFT</Landmark>
+        <Landmark>BROW_MIDDLE_LEFT-BROW_OUTER_LEFT-0.5</Landmark>
+        <Landmark>BROW_MIDDLE_LEFT</Landmark>
+        <Landmark>BROW_INNER_LEFT-BROW_MIDDLE_LEFT-0.5</Landmark>
+        <Landmark>BROW_INNER_LEFT</Landmark>
+      </Landmarks>
+      <LandmarkGroups>
+        <LandmarkGroup>Nose</LandmarkGroup>
+        <LandmarkGroup>BrowRight</LandmarkGroup>
+        <LandmarkGroup>BrowLeft</LandmarkGroup>
+      </LandmarkGroups>
+      <TrackingOptions>
+        <shapeTrackerTrainingData>
+          <samplertrainingdata>
+            <xsamplespacing type="double">0.015</xsamplespacing>
+            <ysamplespacing type="double">0.015</ysamplespacing>
+            <sampleradius type="double">0.15</sampleradius>
+            <isgreyscale type="double">1</isgreyscale>
+			<normalise>global</normalise>
+          </samplertrainingdata>
+          <displacementParameters>
+            <offset type="double">0.015</offset>
+          </displacementParameters>
+		  <updateParameters>
+		    <regularisation>
+			  <landmarkScaleFactor type="double">0.001</landmarkScaleFactor>
+			  <fixedlandmarkScaleFactor type="double">1</fixedlandmarkScaleFactor>
+		    </regularisation>
+		  </updateParameters>
+        </shapeTrackerTrainingData>
+      </TrackingOptions>
+    </MarkupGroup>
+  </MarkupGroups>
+  <ParameterisationGroups>
+    <ParameterisationGroup>
+      <Landmarks>
+        <Landmark>MOUTH_LIP_OUTER_VEE_RIGHT</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_VEE_RIGHT-MOUTH_LIP_OUTER_CORNER_RIGHT-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_VEE_RIGHT-MOUTH_LIP_OUTER_CORNER_RIGHT-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_CORNER_RIGHT</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_CORNER_RIGHT-MOUTH_LIP_OUTER_BOTTOM_MIDDLE-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_CORNER_RIGHT-MOUTH_LIP_OUTER_BOTTOM_MIDDLE-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_BOTTOM_MIDDLE</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_BOTTOM_MIDDLE-MOUTH_LIP_OUTER_CORNER_LEFT-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_BOTTOM_MIDDLE-MOUTH_LIP_OUTER_CORNER_LEFT-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_CORNER_LEFT</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_CORNER_LEFT-MOUTH_LIP_OUTER_VEE_LEFT-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_CORNER_LEFT-MOUTH_LIP_OUTER_VEE_LEFT-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_VEE_LEFT</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_TOP_MIDDLE</Landmark>
+        <Landmark>MOUTH_LIP_INNER_TOP_MIDDLE-MOUTH_LIP_INNER_CORNER_RIGHT-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_INNER_CORNER_RIGHT</Landmark>
+        <Landmark>MOUTH_LIP_INNER_CORNER_RIGHT-MOUTH_LIP_INNER_BOTTOM_MIDDLE-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_INNER_CORNER_RIGHT-MOUTH_LIP_INNER_BOTTOM_MIDDLE-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_INNER_BOTTOM_MIDDLE</Landmark>
+        <Landmark>MOUTH_LIP_INNER_BOTTOM_MIDDLE-MOUTH_LIP_INNER_CORNER_LEFT-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_INNER_BOTTOM_MIDDLE-MOUTH_LIP_INNER_CORNER_LEFT-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_INNER_CORNER_LEFT</Landmark>
+        <Landmark>MOUTH_LIP_INNER_CORNER_LEFT-MOUTH_LIP_INNER_TOP_MIDDLE-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_INNER_CORNER_LEFT-MOUTH_LIP_INNER_TOP_MIDDLE-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_INNER_TOP_MIDDLE</Landmark>
+        <Landmark>MOUTH_LIP_INNER_TOP_MIDDLE-MOUTH_LIP_INNER_CORNER_RIGHT-0.33333</Landmark>
+        <Landmark>NOSTRIL_OUTER_RIGHT</Landmark>
+        <Landmark>NOSE_LOWER_MIDDLE</Landmark>
+        <Landmark>NOSTRIL_OUTER_LEFT</Landmark>
+      </Landmarks>
+      <Name>Mouth</Name>
+      <Type>ParEncode</Type>
+      <Dependencies type="double"/> 
+      <ParameteriseOptions>
+        <samplerOptions>
+          <resolution type="double">64</resolution>
+          <structuretype>samplertrainingdata</structuretype>
+          <samplertype>triangle</samplertype>
+          <xsamplespacing type="double">0.01587301587301587</xsamplespacing>
+          <ysamplespacing type="double">0.01587301587301587</ysamplespacing>
+          <sampleradius type="double">0</sampleradius>
+          <dummypointscalefactor type="double">2</dummypointscalefactor>
+          <numdifferences type="double">0</numdifferences>
+          <modifybaseshape type="double">0</modifybaseshape>
+          <alignmenttype>saxy</alignmenttype>
+          <isgreyscale type="double">1</isgreyscale>
+          <imagetype>integral</imagetype>
+          <landmarkdata>
+            <landmarks type="double"/> 
+          </landmarkdata>
+          <normalise>global</normalise>
+          <interptype>intBi</interptype>
+          <alignmentindices type="double">1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29</alignmentindices>
+          <baseshape type="double" size="29 2"> 
+528.776367187500 662.776000976563
+502.710296630859 668.599975585938
+479.949310302734 683.021057128906
+459.582519531250 703.480163574219
+472.840454101563 738.302307128906
+505.698089599609 763.454345703125
+549.314941406250 767.867065429688
+587.526062011719 760.988830566406
+616.033203125000 736.836425781250
+625.455505371094 705.666564941406
+615.256835937500 685.657897949219
+596.051574707031 670.167602539063
+570.274780273438 663.600708007813
+547.497863769531 666.905151367188
+489.672607421875 697.524475097656
+462.638977050781 703.812255859375
+485.398223876953 719.600280761719
+515.180175781250 728.579406738281
+546.151672363281 731.044494628906
+578.015563964844 727.058166503906
+603.175598144531 718.457214355469
+622.313659667969 705.612365722656
+597.257873535156 698.007934570313
+573.831054687500 688.267700195313
+547.057922363281 686.353271484375
+517.977050781250 691.231079101563
+502.353851318359 596.243713378906
+546.367431640625 632.092834472656
+590.195434570313 597.136596679688
+          </baseshape>
+          <id>Fixed Sampler: High Resolution Markup Scheme RFT 031 Retargeting Enhancements.12 Mouth</id>
+        </samplerOptions>
+        <MaxTextureModes type="double">100</MaxTextureModes>
+        <MaxShapeModes type="double">50</MaxShapeModes>
+        <ParameteriseRange type="double">-1</ParameteriseRange>
+        <Video>
+          <StartFrame type="double">-1</StartFrame>
+          <EndFrame type="double">-1</EndFrame>
+        </Video>
+        <ModelFileName>Mouth.mat</ModelFileName>
+        <ParametersRootFileName>Mouth_Params</ParametersRootFileName>
+      </ParameteriseOptions>
+    </ParameterisationGroup>
+    <ParameterisationGroup>
+      <Landmarks>
+        <Landmark>EYE_TOP_RIGHT</Landmark>
+        <Landmark>EYE_CORNER_OUTER_RIGHT</Landmark>
+        <Landmark>EYE_BOTTOM_RIGHT</Landmark>
+        <Landmark>EYE_CORNER_INNER_RIGHT</Landmark>
+        <Landmark>EYE_TOP_LEFT</Landmark>
+        <Landmark>EYE_CORNER_INNER_LEFT</Landmark>
+        <Landmark>EYE_BOTTOM_LEFT</Landmark>
+        <Landmark>EYE_CORNER_OUTER_LEFT</Landmark>
+        <Landmark>PUPIL_OUTER_LEFT</Landmark>
+        <Landmark>PUPIL_INNER_LEFT</Landmark>
+        <Landmark>PUPIL_OUTER_RIGHT</Landmark>
+        <Landmark>PUPIL_INNER_RIGHT</Landmark>
+      </Landmarks>
+      <Name>Eyes</Name>
+      <Type>ParEncode</Type>
+      <Dependencies type="double"/> 
+      <ParameteriseOptions>
+        <samplerOptions>
+          <resolution type="double">64</resolution>
+          <structuretype>samplertrainingdata</structuretype>
+          <samplertype>triangle</samplertype>
+          <xsamplespacing type="double">0.01587301587301587</xsamplespacing>
+          <ysamplespacing type="double">0</ysamplespacing>
+          <sampleradius type="double">0</sampleradius>
+          <dummypointscalefactor type="double">2</dummypointscalefactor>
+          <numdifferences type="double">0</numdifferences>
+          <modifybaseshape type="double">0</modifybaseshape>
+          <alignmenttype>saxy</alignmenttype>
+          <isgreyscale type="double">1</isgreyscale>
+          <imagetype>integral</imagetype>
+          <landmarkdata>
+            <landmarks type="double"/> 
+          </landmarkdata>
+          <normalise>global</normalise>
+          <interptype>intBi</interptype>
+          <alignmentindices type="double">1 2 3 4 5 6 7 8 9 10 11 12</alignmentindices>
+          <baseshape type="double" size="12 2"> 
+449.095092773438 483.771942138672
+411.946655273438 501.313659667969
+449.760070800781 513.289062500000
+488.393096923828 501.280761718750
+632.174133300781 470.797088623047
+594.282897949219 494.815307617188
+634.490844726563 503.726470947266
+671.537414550781 485.767211914063
+617.752502441406 486.779205322266
+652.615051269531 486.309082031250
+429.163543701172 497.889831542969
+464.000518798828 497.748352050781
+          </baseshape>
+          <id>Fixed Sampler: High Resolution Markup Scheme RFT 031 Retargeting Enhancements.12 Eyes</id>
+        </samplerOptions>
+        <MaxTextureModes type="double">100</MaxTextureModes>
+        <MaxShapeModes type="double">50</MaxShapeModes>
+        <ParameteriseRange type="double">-1</ParameteriseRange>
+        <Video>
+          <StartFrame type="double">-1</StartFrame>
+          <EndFrame type="double">-1</EndFrame>
+        </Video>
+        <ModelFileName>Eyes.mat</ModelFileName>
+        <ParametersRootFileName>Eyes_Params</ParametersRootFileName>
+      </ParameteriseOptions>
+    </ParameterisationGroup>
+    <ParameterisationGroup>
+      <Landmarks>
+		<Landmark>NOSE_LOWER_MIDDLE</Landmark>
+        <Landmark>BROW_INNER_RIGHT</Landmark>
+        <Landmark>BROW_INNER_RIGHT-BROW_MIDDLE_RIGHT-0.5</Landmark>
+        <Landmark>BROW_MIDDLE_RIGHT</Landmark>
+        <Landmark>BROW_MIDDLE_RIGHT-BROW_OUTER_RIGHT-0.5</Landmark>
+        <Landmark>BROW_OUTER_RIGHT</Landmark>
+        <Landmark>BROW_OUTER_LEFT</Landmark>
+        <Landmark>BROW_MIDDLE_LEFT-BROW_OUTER_LEFT-0.5</Landmark>
+        <Landmark>BROW_MIDDLE_LEFT</Landmark>
+        <Landmark>BROW_INNER_LEFT-BROW_MIDDLE_LEFT-0.5</Landmark>
+        <Landmark>BROW_INNER_LEFT</Landmark>
+      </Landmarks>
+      <Name>Brows</Name>
+      <Type>ParEncode</Type>
+      <Dependencies type="double"/> 
+      <ParameteriseOptions>
+        <samplerOptions>
+          <resolution type="double">64</resolution>
+          <structuretype>samplertrainingdata</structuretype>
+          <samplertype>triangle</samplertype>
+          <xsamplespacing type="double">0.01587301587301587</xsamplespacing>
+          <ysamplespacing type="double">0.01587301587301587</ysamplespacing>
+          <sampleradius type="double">0.08 0.08 0.08 0.08 0.08 0.08 0.08 0.08 0.08 0.08 0.08</sampleradius>
+          <dummypointscalefactor type="double">2</dummypointscalefactor>
+          <numdifferences type="double">0</numdifferences>
+          <modifybaseshape type="double">0</modifybaseshape>
+          <alignmenttype>saxy</alignmenttype>
+          <isgreyscale type="double">1</isgreyscale>
+          <imagetype>integral</imagetype>
+          <landmarkdata>
+            <landmarks type="double"/> 
+          </landmarkdata>
+          <normalise>global</normalise>
+          <interptype>intBi</interptype>
+          <alignmentindices type="double">1 2 3 4 5 6 7 8 9 10 11</alignmentindices>
+          <baseshape type="double" size="11 2"> 
+546.367431640625 632.092834472656
+493.195434570313 409.580291748047
+460.538452148438 415.369110107422
+432.664245605469 433.460083007813
+402.516601562500 449.863677978516
+370.607025146484 470.109283447266
+709.374206542969 452.279846191406
+689.322082519531 430.048919677734
+658.851684570313 415.284332275391
+624.403686523438 401.465515136719
+587.123046875000 402.148406982422
+          </baseshape>
+          <id>Fixed Sampler: High Resolution Markup Scheme RFT 031 Retargeting Enhancements.12 Brows</id>
+        </samplerOptions>
+        <MaxTextureModes type="double">100</MaxTextureModes>
+        <MaxShapeModes type="double">50</MaxShapeModes>
+        <ParameteriseRange type="double">-1</ParameteriseRange>
+        <Video>
+          <StartFrame type="double">-1</StartFrame>
+          <EndFrame type="double">-1</EndFrame>
+        </Video>
+        <ModelFileName>Brows.mat</ModelFileName>
+        <ParametersRootFileName>Brows_Params</ParametersRootFileName>
+      </ParameteriseOptions>
+    </ParameterisationGroup>
+      <ParameterisationGroup>
+      <Landmarks>
+        <Landmark>BROW_INNER_RIGHT</Landmark>
+        <Landmark>BROW_INNER_RIGHT-BROW_MIDDLE_RIGHT-0.5</Landmark>
+        <Landmark>BROW_MIDDLE_RIGHT</Landmark>
+        <Landmark>BROW_MIDDLE_RIGHT-BROW_OUTER_RIGHT-0.5</Landmark>
+        <Landmark>BROW_OUTER_RIGHT</Landmark>
+        <Landmark>BROW_OUTER_LEFT</Landmark>
+        <Landmark>BROW_MIDDLE_LEFT-BROW_OUTER_LEFT-0.5</Landmark>
+        <Landmark>BROW_MIDDLE_LEFT</Landmark>
+        <Landmark>BROW_INNER_LEFT-BROW_MIDDLE_LEFT-0.5</Landmark>
+        <Landmark>BROW_INNER_LEFT</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_VEE_RIGHT</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_VEE_RIGHT-MOUTH_LIP_OUTER_CORNER_RIGHT-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_VEE_RIGHT-MOUTH_LIP_OUTER_CORNER_RIGHT-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_CORNER_RIGHT</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_CORNER_RIGHT-MOUTH_LIP_OUTER_BOTTOM_MIDDLE-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_CORNER_RIGHT-MOUTH_LIP_OUTER_BOTTOM_MIDDLE-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_BOTTOM_MIDDLE</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_BOTTOM_MIDDLE-MOUTH_LIP_OUTER_CORNER_LEFT-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_BOTTOM_MIDDLE-MOUTH_LIP_OUTER_CORNER_LEFT-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_CORNER_LEFT</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_CORNER_LEFT-MOUTH_LIP_OUTER_VEE_LEFT-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_CORNER_LEFT-MOUTH_LIP_OUTER_VEE_LEFT-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_VEE_LEFT</Landmark>
+        <Landmark>MOUTH_LIP_OUTER_TOP_MIDDLE</Landmark>
+        <Landmark>MOUTH_LIP_INNER_TOP_MIDDLE-MOUTH_LIP_INNER_CORNER_RIGHT-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_INNER_CORNER_RIGHT</Landmark>
+        <Landmark>MOUTH_LIP_INNER_CORNER_RIGHT-MOUTH_LIP_INNER_BOTTOM_MIDDLE-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_INNER_CORNER_RIGHT-MOUTH_LIP_INNER_BOTTOM_MIDDLE-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_INNER_BOTTOM_MIDDLE</Landmark>
+        <Landmark>MOUTH_LIP_INNER_BOTTOM_MIDDLE-MOUTH_LIP_INNER_CORNER_LEFT-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_INNER_BOTTOM_MIDDLE-MOUTH_LIP_INNER_CORNER_LEFT-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_INNER_CORNER_LEFT</Landmark>
+        <Landmark>MOUTH_LIP_INNER_CORNER_LEFT-MOUTH_LIP_INNER_TOP_MIDDLE-0.33333</Landmark>
+        <Landmark>MOUTH_LIP_INNER_CORNER_LEFT-MOUTH_LIP_INNER_TOP_MIDDLE-0.66667</Landmark>
+        <Landmark>MOUTH_LIP_INNER_TOP_MIDDLE</Landmark>
+        <Landmark>MOUTH_LIP_INNER_TOP_MIDDLE-MOUTH_LIP_INNER_CORNER_RIGHT-0.33333</Landmark>
+        <Landmark>NOSTRIL_OUTER_RIGHT</Landmark>
+        <Landmark>NOSE_LOWER_MIDDLE</Landmark>
+        <Landmark>NOSTRIL_OUTER_LEFT</Landmark>
+      </Landmarks>
+      <Name>Head</Name>
+      <Type>ParEncode</Type>
+      <Dependencies type="double"/> 
+      <ParameteriseOptions>
+        <samplerOptions>
+          <resolution type="double">64</resolution>
+          <structuretype>samplertrainingdata</structuretype>
+          <samplertype>triangle</samplertype>
+          <xsamplespacing type="double">0.01587301587301587</xsamplespacing>
+          <ysamplespacing type="double">0.01587301587301587</ysamplespacing>
+          <sampleradius type="double">0</sampleradius>
+          <dummypointscalefactor type="double">2</dummypointscalefactor>
+          <numdifferences type="double">0</numdifferences>
+          <modifybaseshape type="double">0</modifybaseshape>
+          <alignmenttype>saxy</alignmenttype>
+          <isgreyscale type="double">1</isgreyscale>
+          <imagetype>integral</imagetype>
+          <landmarkdata>
+            <landmarks type="double"/> 
+          </landmarkdata>
+          <normalise>global</normalise>
+          <interptype>intBi</interptype>
+          <alignmentindices type="double">1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39</alignmentindices>
+          <baseshape type="double" size="39 2"> 
+493.195434570313 409.580291748047
+460.538452148438 415.369110107422
+432.664245605469 433.460083007813
+402.516601562500 449.863677978516
+370.607025146484 470.109283447266
+709.374206542969 452.279846191406
+689.322082519531 430.048919677734
+658.851684570313 415.284332275391
+624.403686523438 401.465515136719
+587.123046875000 402.148406982422		  
+528.776367187500 662.776000976563
+502.710296630859 668.599975585938
+479.949310302734 683.021057128906
+459.582519531250 703.480163574219
+472.840454101563 738.302307128906
+505.698089599609 763.454345703125
+549.314941406250 767.867065429688
+587.526062011719 760.988830566406
+616.033203125000 736.836425781250
+625.455505371094 705.666564941406
+615.256835937500 685.657897949219
+596.051574707031 670.167602539063
+570.274780273438 663.600708007813
+547.497863769531 666.905151367188
+489.672607421875 697.524475097656
+462.638977050781 703.812255859375
+485.398223876953 719.600280761719
+515.180175781250 728.579406738281
+546.151672363281 731.044494628906
+578.015563964844 727.058166503906
+603.175598144531 718.457214355469
+622.313659667969 705.612365722656
+597.257873535156 698.007934570313
+573.831054687500 688.267700195313
+547.057922363281 686.353271484375
+517.977050781250 691.231079101563
+502.353851318359 596.243713378906
+546.367431640625 632.092834472656
+590.195434570313 597.136596679688
+          </baseshape>
+          <id>Fixed Sampler: High Resolution Markup Scheme RFT 031 Retargeting Enhancements.12 Brows</id>
+        </samplerOptions>
+        <MaxTextureModes type="double">100</MaxTextureModes>
+        <MaxShapeModes type="double">50</MaxShapeModes>
+        <ParameteriseRange type="double">-1</ParameteriseRange>
+        <Video>
+          <StartFrame type="double">-1</StartFrame>
+          <EndFrame type="double">-1</EndFrame>
+        </Video>
+        <ModelFileName>Brows.mat</ModelFileName>
+        <ParametersRootFileName>Brows_Params</ParametersRootFileName>
+      </ParameteriseOptions>
+    </ParameterisationGroup>
+  </ParameterisationGroups>
+</ImageMetricsAnalysisDefinition>
