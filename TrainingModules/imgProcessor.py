@@ -10,7 +10,7 @@ def resize_img(img_path):
     # scale_percent = 20  # percent of original size
     # width = int(img.shape[1] * scale_percent / 100)
     # height = int(img.shape[0] * scale_percent / 100)
-    dim = (180, 320)
+    dim = (90, 160)
 
     # resize image
     resized = cv2.resize(grey_img, dim, interpolation=cv2.INTER_AREA)
@@ -21,7 +21,8 @@ def resize_img(img_path):
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
-    print(resized.reshape(1, 180 * 320))
+    print(resized.reshape(1, 90 * 160))
+
 
 if __name__ == '__main__':
     test_img = '../Faceware/ROM_fwt/video/ROM_full/ROM.0000.jpg'
