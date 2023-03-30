@@ -18,7 +18,7 @@ class FacialPoseDataSet(Dataset):
         ])
 
     def __getitem__(self, index):
-        img = self.img_arr[index].astype(np.uint8).reshape(180, 320)
+        img = self.img_arr[index].astype(np.uint8).reshape(90, 160)
         img = self.transform(img)
 
         # Extracting rows

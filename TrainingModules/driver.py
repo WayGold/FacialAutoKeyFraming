@@ -62,7 +62,12 @@ def start_training():
 
     # TODO: Load Model Here
     NUM_CLASSES = 151
-    resnet50 = models.resnet50(num_classes=NUM_CLASSES)
-    resnet50.inplanes = 96
-    resnet50.conv1 = nn.Conv2d(1, 64, kernel_size=7, stride=2, padding=3,
-                               bias=False)
+    resnet50 = models.resnet50(num_classes=NUM_CLASSES, pretrained=False)
+    resnet50.avgpool = nn.AdaptiveAvgPool2d((1, 1))
+
+    use_model = resnet50
+
+    optimizer = optim.Adam(use_model.parameters(), lr=lr, weight_decay=5e-4)
+    scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, 'min', verbose=True, patience=5)
+    train.train_model(use_model, optimizer, train_loader, val_loader, scheduler=scheduler,
+                      loss_fn=train.RMSELoss, epochs=50)
