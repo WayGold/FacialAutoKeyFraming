@@ -23,6 +23,10 @@ def resize_img(img_path):
 
     print(resized.reshape(1, 90 * 160))
 
+    resized = resized.reshape(1, 90 * 160)
+
+    return resized
+
 
 if __name__ == '__main__':
     test_img = '../Faceware/ROM_fwt/video/ROM_full/ROM.0000.jpg'
