@@ -17,7 +17,7 @@ def resize_img(img_path):
 
     print('Resized Dimensions : ', resized.shape)
 
-    cv2.imshow("Resized image", resized)
+    #cv2.imshow("Resized image", resized)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 

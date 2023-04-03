@@ -46,7 +46,7 @@ with open('../dataTools/DataCollector/ctrl_config.json') as f:
     ctrl_config = json.load(f)
 
 # Read ctrl_data file
-with open('../dataTools/DataCollector/out/10.json') as f:
+with open('../dataTools/DataCollector/out/ROM_ctrlData.json') as f:
     ctrl_data = json.load(f)
 
 # Pick "Ctrl_" str
@@ -54,13 +54,13 @@ ctrl_keys = [k for k in ctrl_data["1"].keys() if "CTRL_" in k]
 
 # Combine Ctrl name and its channel
 ctrl = []
-# 遍历 B 中的数据
+# iterable the ctrls name in ctrl_config
 for i in ctrl_keys:
     if i in ctrl_config:
         for n in ctrl_config[i]:
             ctrl.append(f"{i}{n}")
 
-print(ctrl_keys)
+#print(ctrl_keys)
 
 # Switch to dataFrame
 df = pd.DataFrame([ctrl])
@@ -69,17 +69,16 @@ df = pd.DataFrame([ctrl])
 #df.columns = df.iloc[0]
 #df = df.drop(df.index[0])
 
-print(df)
+#print(df)
 
 # Import Image data
 #img = pd.DataFrame(resize_img('../Faceware/ROM_fwt/video/ROM_full/ROM.0000.jpg'))
-img_folder_path = "../Faceware/ROM_fwt/video/Test"
+img_folder_path = "../Faceware/ROM_fwt/video/ROM_full"
 
-# 使用glob模块找到所有的jpg文件
+# iterable all folder
 img_list = glob.glob(os.path.join(img_folder_path, "*.jpg"))
-
 img_data_list = []
-# 遍历文件列表
+
 for i in img_list:
     img_resize = pd.DataFrame(resize_img(i))
     img_data_list.append(img_resize)
@@ -92,11 +91,11 @@ img_df = pd.DataFrame(img)
 
 
 
-data_dir = "../Faceware/ROM_fwt/video/Test"
+data_dir = "../Faceware/ROM_fwt/video/ROM_full"
 file_list = os.listdir(data_dir)
 file_count = len(file_list)
 
-print(file_count)
+#print(file_count)
 
 #img = np.array(img)
 #img = img.tolist()
@@ -125,7 +124,7 @@ for k in ctrl_data.keys():
         break
 
 ctrl_df = pd.DataFrame(ctrl_values)
-print(ctrl_df)
+#print(ctrl_df)
 
 #ctrl_df.columns = ctrl_df.iloc[0]
 #ctrl_df = ctrl_df.drop(ctrl_df.index[0])
@@ -141,8 +140,6 @@ df = df.drop(df.index[0])
 
 # Add Image data
 df = df.reset_index(drop=True)
-print(df)
-print(img_df)
 df['Image'] = img_df[0]
 
 
