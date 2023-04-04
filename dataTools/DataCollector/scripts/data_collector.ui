@@ -162,7 +162,7 @@
     <property name="geometry">
      <rect>
       <x>60</x>
-      <y>10</y>
+      <y>20</y>
       <width>251</width>
       <height>20</height>
      </rect>
@@ -174,24 +174,6 @@
     </property>
     <property name="text">
      <string>Generate Keyable Controller Channel Config</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="exportLoclabel_3">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>30</y>
-      <width>341</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Pls Manually Select All Controllers Before Hitting Generate</string>
     </property>
    </widget>
   </widget>
