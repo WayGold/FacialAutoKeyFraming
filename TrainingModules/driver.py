@@ -71,3 +71,7 @@ def start_training():
     scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, 'min', verbose=True, patience=5)
     train.train_model(use_model, optimizer, train_loader, val_loader, scheduler=scheduler,
                       loss_fn=train.RMSELoss, epochs=50)
+
+
+if __name__ == '__main__':
+    start_training()

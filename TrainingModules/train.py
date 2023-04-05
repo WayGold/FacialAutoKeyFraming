@@ -1,6 +1,5 @@
 import torch
 import numpy as np
-from torchvision import models
 
 
 def RMSELoss(output, target):
