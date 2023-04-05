@@ -1,6 +1,4 @@
 import os
-import re
-import logging
 import sys
 
 from PySide2 import QtCore
@@ -52,6 +50,11 @@ class MainWindow(QtWidgets.QMainWindow):
     # Output path
     export_path = ''
 
+    # CSV path
+    csv_loading_path = ''
+    # Export Combined CSV path
+    combinedCSV_export_path = ''
+
 
     def __init__(self):
 
@@ -98,17 +101,39 @@ class MainWindow(QtWidgets.QMainWindow):
         self.ui.imgLocField.cursorPositionChanged.connect(self.set_img_loading_path)
         self.ui.imgLocField.selectionChanged.connect(self.set_img_loading_path)
 
+        # Add CSV Loading Path Modification Listeners
+        self.ui.csvLocField.setText(self.csv_loading_path)
+        self.ui.csvLocField.textChanged.connect(self.set_csv_loading_path)
+        self.ui.csvLocField.returnPressed.connect(self.set_csv_loading_path)
+        self.ui.csvLocField.cursorPositionChanged.connect(self.set_csv_loading_path)
+        self.ui.csvLocField.selectionChanged.connect(self.set_csv_loading_path)
+
+        # Add Output Combined CSV Path Modification Listeners
+        self.ui.exportCSVLocField.setText(self.combinedCSV_export_path)
+        self.ui.exportCSVLocField.textChanged.connect(self.set_combined_csv_export_path)
+        self.ui.exportCSVLocField.returnPressed.connect(self.set_combined_csv_export_path)
+        self.ui.exportCSVLocField.cursorPositionChanged.connect(self.set_combined_csv_export_path)
+        self.ui.exportCSVLocField.selectionChanged.connect(self.set_combined_csv_export_path)
+
         # Add Browse Select Connection
         self.ui.browseCtrlConfigLocButton.clicked.connect(self.browse_ctrl_config_load_callback)
         self.ui.browseDataLocButton.clicked.connect(self.browse_data_load_callback)
         self.ui.browseImgLocButton.clicked.connect(self.browse_img_load_callback)
         self.ui.browseExportLocButton.clicked.connect(lambda: self.browse_callback(self.ui.exportLocField))
+        self.ui.browseCSVLocButton.clicked.connect(self.browse_csv_load_callback)
+        self.ui.browseCSVExportLocButton.clicked.connect(lambda: self.browse_csv_callback(self.ui.exportCSVLocField))
 
         # Add Load Connection
         self.ui.loadButton.clicked.connect(self.load_callback)
 
+        # Add Load CSV Connection
+        self.ui.loadCSVButton.clicked.connect(self.load_CSV_callback)
+
         # Add Generate Connection
         self.ui.generateButton.clicked.connect(self.generate_callback)
+
+        # Add Combine Connection
+        self.ui.combineButton.clicked.connect(self.combine_callback)
 
         # Add Debug List Clear Connection
         self.ui.clearLog.clicked.connect(self.clear_log_list)
@@ -143,13 +168,18 @@ class MainWindow(QtWidgets.QMainWindow):
     def set_data_loading_path(self):
         self.data_loading_path = self.ui.dataLocField.text()
 
+    def set_csv_loading_path(self):
+        self.csv_loading_path = self.ui.csvLocField.text()
+
+    def set_combined_csv_export_path(self):
+        self.combinedCSV_export_path = self.ui.exportCSVLocField.text()
+
     def show(self):
         self.ui.show()
 
     def eventFilter(self, ui, event):
         if ui is self.ui and event.type() == QtCore.QEvent.Close:
             self.append_to_log_list(u'--- Closing Main Window ---')
-            #event.ignore()
             self.ui.close()
             return True
         return False
@@ -168,9 +198,14 @@ class MainWindow(QtWidgets.QMainWindow):
         QtCore.QCoreApplication.processEvents()
 
     def generate_callback(self):
-        data_process_utils.data_process(self.export_path)
         self.append_to_log_list('Plz Wait! Processing...')
+        data_process_utils.data_process(self.export_path, self.img_loading_path)
         self.append_to_log_list('Generate to ' + self.export_path)
+
+    def combine_callback(self):
+        self.append_to_log_list('Plz Wait! Processing...')
+        data_process_utils.combine_csv(self.combinedCSV_export_path)
+        self.append_to_log_list('Generate to ' + self.combinedCSV_export_path)
 
     def browse_callback(self, text_field):
         self.append_to_log_list('Browsing path...')
@@ -196,10 +231,27 @@ class MainWindow(QtWidgets.QMainWindow):
         self.ui.imgLocField.setText(self.img_loading_path)
         self.append_to_log_list('Selected: ' + self.img_loading_path)
 
+    def browse_csv_load_callback(self):
+        self.append_to_log_list('Browsing CSV loading path...')
+        self.csv_loading_path = QtWidgets.QFileDialog.getExistingDirectory(self)
+        self.ui.csvLocField.setText(self.csv_loading_path)
+        self.append_to_log_list('Selected: ' + self.csv_loading_path)
+
+    def browse_csv_callback(self, text_field):
+        self.append_to_log_list('Browsing path...')
+        self.combinedCSV_export_path = QtWidgets.QFileDialog.getExistingDirectory(self)
+        text_field.setText(self.combinedCSV_export_path)
+        self.append_to_log_list('Selected: ' + self.combinedCSV_export_path)
+
     def load_callback(self):
         self.append_to_log_list('Loading controller config data...')
         data_process_utils.load_ctrl_config_file(self.ctrl_config_path)
         data_process_utils.load_ctrl_data(self.data_loading_path)
+        data_process_utils.load_img(self.img_loading_path)
+
+    def load_CSV_callback(self):
+        self.append_to_log_list('Loading all csv files...')
+        data_process_utils.import_csv(self.csv_loading_path)
 
 
 if __name__ == '__main__':

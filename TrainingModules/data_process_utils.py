@@ -22,8 +22,17 @@ def load_ctrl_data(data_path):
     with open(data_path) as f:
         ctrl_data = json.load(f)
 
+def load_img(data_path):
+    # Read Img path
+    img_folder_path = str(data_path)
 
-def data_process(out_path):
+    # iterable all folder
+    img_list = glob.glob(os.path.join(img_folder_path, "*.jpg"))
+    img_data_list = []
+
+    return img_list, img_data_list
+
+def data_process(out_path, data_path):
 
     # Pick "Ctrl_" str
     ctrl_keys = [k for k in ctrl_data["1"].keys() if "CTRL_" in k]
@@ -49,11 +58,12 @@ def data_process(out_path):
 
     # Import Image data
     #img = pd.DataFrame(resize_img('../Faceware/ROM_fwt/video/ROM_full/ROM.0000.jpg'))
-    img_folder_path = "../Faceware/ROM_fwt/video/ROM_full"
+    #img_folder_path = "../Faceware/ROM_fwt/video/ROM_full"
 
     # iterable all folder
-    img_list = glob.glob(os.path.join(img_folder_path, "*.jpg"))
-    img_data_list = []
+    #img_list = glob.glob(os.path.join(img_folder_path, "*.jpg"))
+    #img_data_list = []
+    img_list, img_data_list = load_img(data_path)
 
     for i in img_list:
         img_resize = pd.DataFrame(resize_img(i))
@@ -65,7 +75,7 @@ def data_process(out_path):
     img_df = pd.DataFrame(img)
     #print(img_df)
 
-    data_dir = "../Faceware/ROM_fwt/video/ROM_full"
+    data_dir = str(data_path)
     file_list = os.listdir(data_dir)
     file_count = len(file_list)
 
@@ -122,7 +132,7 @@ def data_process(out_path):
     # Output as csv
 
     file_name = os.path.join(out_path, str(data_name) + '_withImg_data' + '.csv')
-    df.to_csv(file_name)
+    df.to_csv(file_name, index=False)
     '''
     getImgArrAndPoseDf(df)
     print(getImgArrAndPoseDf)
@@ -133,3 +143,19 @@ def data_process(out_path):
     '''
     print('Row count is:', len(img_df.index))
 
+
+def import_csv(data_path):
+    global all_csv_files
+    # Read csv Path
+    csv_path = (str(data_path))
+    # Read All CSV Data
+    all_csv_files = glob.glob(os.path.join(csv_path, '*.csv'))
+    print(all_csv_files)
+
+
+def combine_csv(new_path):
+    # Combine & export
+    combine_df = pd.concat([pd.read_csv(f) for f in all_csv_files], ignore_index=True)
+    new_csv = os.path.join(new_path, 'combined_data' + '.csv')
+    combine_df.to_csv(new_csv, index=False)
+    print(combine_df)
