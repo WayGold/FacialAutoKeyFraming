@@ -47,7 +47,8 @@ def getImgArrAndPoseDf(i_df):
     img_arr = np.array(i_df.Image)
     # print(f'Size of Image Array - {len(img_arr)}')
     for i in range(len(img_arr)):
-        img_arr[i] = np.fromstring(img_arr[i], sep=' ')
+        # img_arr[i] = np.fromstring(img_arr[i], sep=' ')
+        img_arr[i] = np.array(img_arr[i])
 
     # Get kpts data
     pose_df = i_df.drop(['Image'], axis=1)

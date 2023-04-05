@@ -17,11 +17,15 @@ def resize_img(img_path):
 
     print('Resized Dimensions : ', resized.shape)
 
-    cv2.imshow("Resized image", resized)
+    #cv2.imshow("Resized image", resized)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
     print(resized.reshape(1, 90 * 160))
+
+    resized = resized.reshape(1, 90 * 160)
+
+    return resized
 
 
 if __name__ == '__main__':
