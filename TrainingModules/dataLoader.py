@@ -18,7 +18,7 @@ class FacialPoseDataSet(Dataset):
         ])
 
     def __getitem__(self, index):
-        img = self.img_arr[index].astype(np.uint8).reshape(90, 160)
+        img = self.img_arr[index].astype(np.uint8).reshape(160, 90)
         img = self.transform(img)
 
         # Extracting rows
@@ -46,9 +46,9 @@ def getImgArrAndPoseDf(i_df):
     # Get img data
     img_arr = np.array(i_df.Image)
     # print(f'Size of Image Array - {len(img_arr)}')
+
     for i in range(len(img_arr)):
-        # img_arr[i] = np.fromstring(img_arr[i], sep=' ')
-        img_arr[i] = np.array(img_arr[i])
+        img_arr[i] = np.fromstring(img_arr[i], sep=' ')
 
     # Get kpts data
     pose_df = i_df.drop(['Image'], axis=1)

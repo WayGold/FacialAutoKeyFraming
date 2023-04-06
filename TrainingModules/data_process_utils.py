@@ -7,6 +7,7 @@ import numpy as np
 from dataLoader import getImgArrAndPoseDf
 from imgProcessor import resize_img
 
+
 def load_ctrl_config_file(data_path):
     # Read ctrl_config file
     global ctrl_config
@@ -24,7 +25,6 @@ def load_ctrl_data(data_path):
 
 
 def data_process(out_path):
-
     # Pick "Ctrl_" str
     ctrl_keys = [k for k in ctrl_data["1"].keys() if "CTRL_" in k]
 
@@ -36,19 +36,19 @@ def data_process(out_path):
             for n in ctrl_config[i]:
                 ctrl.append(f"{i}{n}")
 
-    #print(ctrl_keys)
+    # print(ctrl_keys)
 
     # Switch to dataFrame
     df = pd.DataFrame([ctrl])
 
     # Set ctrl as column name
-    #df.columns = df.iloc[0]
-    #df = df.drop(df.index[0])
+    # df.columns = df.iloc[0]
+    # df = df.drop(df.index[0])
 
-    #print(df)
+    # print(df)
 
     # Import Image data
-    #img = pd.DataFrame(resize_img('../Faceware/ROM_fwt/video/ROM_full/ROM.0000.jpg'))
+    # img = pd.DataFrame(resize_img('../Faceware/ROM_fwt/video/ROM_full/ROM.0000.jpg'))
     img_folder_path = "../Faceware/ROM_fwt/video/ROM_full"
 
     # iterable all folder
@@ -61,18 +61,18 @@ def data_process(out_path):
 
     img = np.array(img_data_list)
     img = img.tolist()
-    #img = [x[0] for x in img] # delete the outest list
+    # img = [x[0] for x in img] # delete the outest list
     img_df = pd.DataFrame(img)
-    #print(img_df)
+    # print(img_df)
 
     data_dir = "../Faceware/ROM_fwt/video/ROM_full"
     file_list = os.listdir(data_dir)
     file_count = len(file_list)
 
-    #print(file_count)
+    # print(file_count)
 
-    #img = np.array(img)
-    #img = img.tolist()
+    # img = np.array(img)
+    # img = img.tolist()
 
     # 转换list为float
     '''
@@ -89,7 +89,7 @@ def data_process(out_path):
     # Switch controllers data to df
     ctrl_values = []
     for k in ctrl_data.keys():
-        #if int(k) == file_count:
+        # if int(k) == file_count:
         row = []
         for v in ctrl_data[k].values():
             row.extend(v)
@@ -132,4 +132,3 @@ def data_process(out_path):
     print(df.info(verbose=True))
     '''
     print('Row count is:', len(img_df.index))
-

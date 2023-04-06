@@ -13,6 +13,7 @@ import data_process_utils
 
 main_window = None
 
+
 def create():
     print('Creating UI')
     global main_window
@@ -51,7 +52,6 @@ class MainWindow(QtWidgets.QMainWindow):
     img_loading_path = ''
     # Output path
     export_path = ''
-
 
     def __init__(self):
 
@@ -116,7 +116,6 @@ class MainWindow(QtWidgets.QMainWindow):
         # Add EventFilter to Detect CloseEvent
         self.ui.installEventFilter(self)
 
-
     def load_ui(self, file_path):
         loader = QtUiTools.QUiLoader()
         ui_file = QtCore.QFile(file_path)
@@ -124,7 +123,6 @@ class MainWindow(QtWidgets.QMainWindow):
         ui = loader.load(ui_file)
         ui_file.close()
         return ui
-
 
     def instance(cls, *args, **kwargs):
         if not hasattr(Singleton, "_instance"):
@@ -149,7 +147,7 @@ class MainWindow(QtWidgets.QMainWindow):
     def eventFilter(self, ui, event):
         if ui is self.ui and event.type() == QtCore.QEvent.Close:
             self.append_to_log_list(u'--- Closing Main Window ---')
-            #event.ignore()
+            # event.ignore()
             self.ui.close()
             return True
         return False

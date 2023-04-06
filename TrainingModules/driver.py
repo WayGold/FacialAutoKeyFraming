@@ -10,9 +10,7 @@ import torch.nn as nn
 from torchvision import models
 from torch.utils.data.sampler import SubsetRandomSampler, SequentialSampler
 
-
-# TODO:
-TRAIN_CSV_PATH = ''
+TRAIN_CSV_PATH = '../TrainingData/combined_data.csv'
 
 
 def load_csv(path):
@@ -31,7 +29,7 @@ def load_csv(path):
 
 
 def start_training():
-    lr = 1e-3
+    lr = 6e-2
 
     train_csv = load_csv(TRAIN_CSV_PATH)
     print(f'Len of train csv: {len(np.array(train_csv.Image))}')
@@ -52,25 +50,26 @@ def start_training():
     train_sampler = SubsetRandomSampler(range(len(train_dataset)))
     val_sampler = SequentialSampler(range(len(val_dataset)))
 
-    train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=256, sampler=train_sampler, num_workers=2,
+    train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=128, sampler=train_sampler, num_workers=4,
                                                pin_memory=True)
-    val_loader = torch.utils.data.DataLoader(val_dataset, batch_size=256, sampler=val_sampler, num_workers=2,
+    val_loader = torch.utils.data.DataLoader(val_dataset, batch_size=128, sampler=val_sampler, num_workers=4,
                                              pin_memory=True)
 
     print('Size of training loader batches: {}\nSize of validation loader batches: {}'.format(len(train_loader),
                                                                                               len(val_loader)))
 
     # TODO: Load Model Here
-    NUM_CLASSES = 151
-    resnet50 = models.resnet50(num_classes=NUM_CLASSES, pretrained=False)
+    NUM_CLASSES = 223
+    resnet50 = models.resnet50(num_classes=NUM_CLASSES)
     resnet50.avgpool = nn.AdaptiveAvgPool2d((1, 1))
+    resnet50.conv1 = nn.Conv2d(1, 64, kernel_size=7, stride=2, padding=3, bias=False)
 
     use_model = resnet50
 
-    optimizer = optim.Adam(use_model.parameters(), lr=lr, weight_decay=5e-4)
+    optimizer = optim.Adam(use_model.parameters(), lr=lr, weight_decay=1e-4)
     scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, 'min', verbose=True, patience=5)
     train.train_model(use_model, optimizer, train_loader, val_loader, scheduler=scheduler,
-                      loss_fn=train.RMSELoss, epochs=50)
+                      loss_fn=train.RMSELoss, epochs=250)
 
 
 if __name__ == '__main__':

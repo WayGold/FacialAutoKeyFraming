@@ -7,7 +7,7 @@ def RMSELoss(output, target):
 
 
 def train_model(model, optim, loader_train, loader_val, scheduler=None,
-                loss_fn=RMSELoss, epochs=1, log_every=30):
+                loss_fn=RMSELoss, epochs=1, log_every=5):
 
     train_losses, val_losses = [], []
     min_val_loss = np.Inf
@@ -67,6 +67,8 @@ def train_model(model, optim, loader_train, loader_val, scheduler=None,
             min_val_loss = val_loss
             torch.save(model.state_dict(), './best_model.pt')
             print('Improvement Detected, Saving to ./best_model.pt')
+
+    print('Training Complete. Min Validation Loss: {:.4f}'.format(min_val_loss))
 
 
 def evaluate(model, val_loader, loss_fn):
