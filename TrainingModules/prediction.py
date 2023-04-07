@@ -4,6 +4,8 @@ import torch.nn as nn
 import numpy as np
 import dataLoader as dl
 import driver as dr
+import assembleData_Ctrl as ac
+
 
 from torchvision import models
 from torchvision import transforms
@@ -89,7 +91,7 @@ def test_loader():
 
 def test_single_img():
     MODEL_PATH = 'best_model_0.0163.pt'
-    test_img = '../PerfomanceClips/AllDead_fwt/video/AllDead_full/AllDead.0215.jpg'
+    test_img = r'F:\Homework\FacialAutoFraming\FacialAutoKeyFraming\PerfomanceClips\GotTB_01_fwt\video\GotTB_01_full\GotTB_01.0650.jpg'
 
     NUM_CLASSES = 223
     resnet50 = models.resnet50(num_classes=NUM_CLASSES)
@@ -99,10 +101,12 @@ def test_single_img():
     resnet_model = loadModel(MODEL_PATH, resnet50)
 
     pred = np.array(predict_raw(resnet_model, test_img))
-
+    ac.assemble_data(pred, '../dataTools/DataCollector/out/ctrl_out.json')
     return pred
 
 
 if __name__ == '__main__':
     # test_loader()
+
     print('Result - ', test_single_img())
+

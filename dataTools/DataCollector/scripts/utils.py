@@ -127,19 +127,19 @@ def paste_ctrl_value(ctrl_config_dict, data):
     print 'Len of config ' + str(len(ctrl_config_dict))
     print 'Len of data ' + str(len(data))
 
+    '''
     for frame in data:
         for ctrl in ctrl_config_dict:
             for i, channel in enumerate(ctrl_config_dict[ctrl]):
                 if not cmds.getAttr(ctrl + channel, lock=True):
                     cmds.setAttr(ctrl + channel, float(data[frame][ctrl][i]))
                     cmds.setKeyframe(ctrl + channel, time=frame)
-
     '''
-    for ctrl in ctrl_config_dict:
-        for i, channel in enumerate(ctrl_config_dict[ctrl]):
-            if not cmds.getAttr(ctrl + channel, lock=True):
-                cmds.setAttr(ctrl + channel, float(data[ctrl][i]))
-    '''
+    for ctrl in data:
+        if not cmds.getAttr(ctrl, lock=True):
+            value = data[ctrl][0]
+            cmds.setAttr(ctrl, value)
+            cmds.setKeyframe(ctrl)
 
 
 if __name__ == '__main__':
