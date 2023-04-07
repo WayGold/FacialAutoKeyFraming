@@ -51,15 +51,11 @@ class MainWindow(QtWidgets.QMainWindow):
     # Output path
     export_path = ''
 
-<<<<<<< HEAD
-=======
     # CSV path
     csv_loading_path = ''
     # Export Combined CSV path
     combinedCSV_export_path = ''
 
-
->>>>>>> f2e57c21fab27203f782be4e7c6984569f87ea73
     def __init__(self):
 
         super(MainWindow, self).__init__()
@@ -182,10 +178,6 @@ class MainWindow(QtWidgets.QMainWindow):
     def eventFilter(self, ui, event):
         if ui is self.ui and event.type() == QtCore.QEvent.Close:
             self.append_to_log_list(u'--- Closing Main Window ---')
-<<<<<<< HEAD
-            # event.ignore()
-=======
->>>>>>> f2e57c21fab27203f782be4e7c6984569f87ea73
             self.ui.close()
             return True
         return False

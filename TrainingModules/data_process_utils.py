@@ -23,22 +23,19 @@ def load_ctrl_data(data_path):
     with open(data_path) as f:
         ctrl_data = json.load(f)
 
+
 def load_img(data_path):
     # Read Img path
     img_folder_path = str(data_path)
 
-<<<<<<< HEAD
-def data_process(out_path):
-=======
     # iterable all folder
     img_list = glob.glob(os.path.join(img_folder_path, "*.jpg"))
     img_data_list = []
 
     return img_list, img_data_list
 
-def data_process(out_path, data_path):
 
->>>>>>> f2e57c21fab27203f782be4e7c6984569f87ea73
+def data_process(out_path, data_path):
     # Pick "Ctrl_" str
     ctrl_keys = [k for k in ctrl_data["1"].keys() if "CTRL_" in k]
 
@@ -62,17 +59,12 @@ def data_process(out_path, data_path):
     # print(df)
 
     # Import Image data
-<<<<<<< HEAD
     # img = pd.DataFrame(resize_img('../Faceware/ROM_fwt/video/ROM_full/ROM.0000.jpg'))
-    img_folder_path = "../Faceware/ROM_fwt/video/ROM_full"
-=======
-    #img = pd.DataFrame(resize_img('../Faceware/ROM_fwt/video/ROM_full/ROM.0000.jpg'))
-    #img_folder_path = "../Faceware/ROM_fwt/video/ROM_full"
->>>>>>> f2e57c21fab27203f782be4e7c6984569f87ea73
+    # img_folder_path = "../Faceware/ROM_fwt/video/ROM_full"
 
     # iterable all folder
-    #img_list = glob.glob(os.path.join(img_folder_path, "*.jpg"))
-    #img_data_list = []
+    # img_list = glob.glob(os.path.join(img_folder_path, "*.jpg"))
+    # img_data_list = []
     img_list, img_data_list = load_img(data_path)
 
     for i in img_list:
@@ -100,7 +92,6 @@ def data_process(out_path, data_path):
     for sublist in img:
         for item in sublist:
             unpacked_img.append(item)
-
     img = unpacked_img
     print(img)
     '''
@@ -121,10 +112,8 @@ def data_process(out_path, data_path):
     ctrl_df = pd.DataFrame(ctrl_values)
     '''
     print(ctrl_df)
-
     ctrl_df.columns = ctrl_df.iloc[0]
     ctrl_df = ctrl_df.drop(ctrl_df.index[0])
-
     df = df.loc[:,~df.columns.duplicated()].reset_index(drop=True)
     ctrl_df = ctrl_df.loc[:,~ctrl_df.columns.duplicated()].reset_index(drop=True)
     df = pd.concat([df, ctrl_df])
@@ -146,14 +135,10 @@ def data_process(out_path, data_path):
     '''
     getImgArrAndPoseDf(df)
     print(getImgArrAndPoseDf)
-
     df = pd.read_csv('../FacialAutoKeyFraming/TrainingModules/output.csv')
-
     print(df.info(verbose=True))
     '''
     print('Row count is:', len(img_df.index))
-<<<<<<< HEAD
-=======
 
 
 def import_csv(data_path):
@@ -171,4 +156,3 @@ def combine_csv(new_path):
     new_csv = os.path.join(new_path, 'combined_data' + '.csv')
     combine_df.to_csv(new_csv, index=False)
     print(combine_df)
->>>>>>> f2e57c21fab27203f782be4e7c6984569f87ea73
