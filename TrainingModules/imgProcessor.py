@@ -15,13 +15,11 @@ def resize_img(img_path):
     # resize image
     resized = cv2.resize(grey_img, dim, interpolation=cv2.INTER_AREA)
 
-    print('Resized Dimensions : ', resized.shape)
+    # print('Resized Dimensions : ', resized.shape)
 
     # cv2.imshow("Resized image", resized)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
-
-    # print(resized.reshape(1, 90 * 160))
+    # cv2.waitKey(0)
+    # cv2.destroyAllWindows()
 
     resized = resized.reshape(1, 90 * 160)
 
