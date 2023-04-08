@@ -35,3 +35,17 @@ def assemble_data(img_data, json_out):
     return data
 
 
+# Use ctrl_config to reassemble controller name
+'''
+with open('F:/Homework/FacialAutoFraming/FacialAutoKeyFraming/dataTools/DataCollector/ctrl_config.json') as f:
+    ctrl_config = json.load(f)
+
+ctrl = []
+for key, channel in ctrl_config.items():
+    for i in channel:
+        ctrl.append(key + i)
+
+print(ctrl)
+'''
+
+
