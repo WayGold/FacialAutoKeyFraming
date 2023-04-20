@@ -88,7 +88,7 @@ def test_loader():
 
 
 def test_single_img():
-    MODEL_PATH = 'best_model_0.0163.pt'
+    MODEL_PATH = 'best_model_0.0077.pt'
     test_img = '../PerfomanceClips/AllDead_fwt/video/AllDead_full/AllDead.0215.jpg'
 
     NUM_CLASSES = 223

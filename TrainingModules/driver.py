@@ -42,6 +42,8 @@ def start_training():
     print('Size of training set: {}'.format(len(train_dataset)))
     print('Size of validation set: {}'.format(len(val_dataset)))
 
+    print(train_dataset.img_arr.shape)
+
     # TODO:
     # Add Augmentation Modules Here
 

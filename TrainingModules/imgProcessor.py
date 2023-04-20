@@ -26,6 +26,27 @@ def resize_img(img_path):
     return resized
 
 
+def add_border(img_path):
+    img = cv2.imread(img_path, cv2.IMREAD_UNCHANGED)
+    grey_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
+    dim = (90, 160)
+    # resize image
+    resized = cv2.resize(grey_img, dim, interpolation=cv2.INTER_AREA)
+
+    borderoutput = cv2.copyMakeBorder(
+        resized, 0, 0, 35, 35, cv2.BORDER_CONSTANT, value=[255, 255, 255])
+    resized = cv2.resize(borderoutput, (96, 96), interpolation=cv2.INTER_AREA)
+
+    cv2.imshow("Resized image", resized)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+
+    # Saving the image
+    cv2.imwrite('../testImage.jpg', resized)
+
+
 if __name__ == '__main__':
     test_img = '../Faceware/ROM_fwt/video/ROM_full/ROM.0000.jpg'
-    resize_img(test_img)
+    # resize_img(test_img)
+    add_border(test_img)
