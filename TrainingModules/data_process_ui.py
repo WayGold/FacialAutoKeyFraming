@@ -197,12 +197,12 @@ class MainWindow(QtWidgets.QMainWindow):
 
     def generate_callback(self):
         self.append_to_log_list('Plz Wait! Processing...')
-        data_process_utils.data_process(self.export_path, self.img_loading_path)
+        data_process_utils.data_process(self.export_path, self.img_loading_path, self.ctrl_config_path, self.data_loading_path)
         self.append_to_log_list('Generate to ' + self.export_path)
 
     def combine_callback(self):
         self.append_to_log_list('Plz Wait! Processing...')
-        data_process_utils.combine_csv(self.combinedCSV_export_path)
+        data_process_utils.combine_csv(self.combinedCSV_export_path, self.csv_loading_path)
         self.append_to_log_list('Generate to ' + self.combinedCSV_export_path)
 
     def browse_callback(self, text_field):

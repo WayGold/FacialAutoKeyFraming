@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>410</width>
-    <height>664</height>
+    <height>691</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -124,6 +124,9 @@
     <property name="text">
      <string>Export Path:</string>
     </property>
+    <property name="textFormat">
+     <enum>Qt::PlainText</enum>
+    </property>
    </widget>
    <widget class="QLineEdit" name="exportLocField">
     <property name="geometry">
@@ -139,7 +142,7 @@
     <property name="geometry">
      <rect>
       <x>180</x>
-      <y>620</y>
+      <y>640</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -154,7 +157,7 @@
       <x>50</x>
       <y>500</y>
       <width>321</width>
-      <height>101</height>
+      <height>121</height>
      </rect>
     </property>
    </widget>
@@ -211,7 +214,7 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>280</y>
+      <y>270</y>
       <width>421</width>
       <height>16</height>
      </rect>
@@ -316,6 +319,68 @@
     </property>
     <property name="text">
      <string>Load</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Titlelabel">
+    <property name="geometry">
+     <rect>
+      <x>105</x>
+      <y>10</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft JhengHei UI</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="text">
+     <string>Generate CSV File</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Titlelabel_2">
+    <property name="geometry">
+     <rect>
+      <x>105</x>
+      <y>290</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft JhengHei UI</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="text">
+     <string>Combine CSV File</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
   </widget>
